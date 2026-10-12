@@ -1,10 +1,16 @@
 active: true
+asil: QM
 derived: false
 header: ''
 level: 1.3
 links: []
 normative: true
+priority: medium
+rationale: |
+  Logged data supports root-cause analysis after incidents and field issues.
 ref: ''
 reviewed: PgBMdScFh2aWj92hZBOTzzg5AIK-iu3i9R-tjJUdLoE=
+source: Service / diagnostics
 text: |
   The system shall support post-event diagnosis through logged data and traceable fault information.
+verification_method: demonstration

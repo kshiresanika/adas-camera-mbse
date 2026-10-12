@@ -1,10 +1,16 @@
 active: true
+asil: n/a
 derived: false
 header: ''
 level: 1.4
 links: []
 normative: true
+priority: high
+rationale: |
+  Safety-related functions require a documented safety argument and compliant development process.
 ref: ''
 reviewed: 5TDBWHGy8YxAzL8ozpgfW5SgE9X4CJ8ohvXwti8e2f4=
+source: Safety assessor
 text: |
   The system shall meet the applicable functional safety requirements (ISO 26262) for its intended use.
+verification_method: analysis

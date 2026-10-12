@@ -1,10 +1,16 @@
 active: true
+asil: B
 derived: false
 header: ''
 level: 1.1
 links: []
 normative: true
+priority: high
+rationale: |
+  Unwarranted braking can cause rear-end collisions and erodes driver trust; controllability must be preserved.
 ref: ''
 reviewed: w45ouUNRFXSw5ny8WIontdo2SIYnKDHc0R58Z0nEgHs=
+source: Vehicle program / ISO 26262 and SOTIF controllability
 text: |
   The system shall minimize false interventions so that driver trust and vehicle controllability are not compromised.
+verification_method: test

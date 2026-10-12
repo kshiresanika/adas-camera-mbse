@@ -1,10 +1,16 @@
 active: true
+asil: QM
 derived: false
 header: ''
 level: 1.5
 links: []
 normative: true
+priority: medium
+rationale: |
+  Pedestrian detection must work in the realistic lighting and weather conditions of the operational domain.
 ref: ''
 reviewed: FmIvdjQaNMcr3TXcjX_31TqFO_fyWj4e4YAO6cSkq4U=
+source: Vehicle program
 text: |
   The system shall operate across defined lighting and weather conditions (day, night, low sun, rain).
+verification_method: test
