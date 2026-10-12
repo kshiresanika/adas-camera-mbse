@@ -1,11 +1,18 @@
 active: true
+asil: D
 derived: false
 header: ''
 level: 1.0
 links: []
 normative: true
+priority: high
+rationale: |
+  Pedestrian collisions are a leading cause of urban fatalities; AEB is a
+  key mitigation.
 ref: ''
 reviewed: mwSiyjAuA5FkhERF_MZGWskCOpjzTjqdSiV9gL3tULE=
+source: Vehicle program / Euro NCAP VRU scenarios
 text: |
   The driver shall be protected from collisions with pedestrians in urban
   driving through automatic braking intervention.
+verification_method: test
