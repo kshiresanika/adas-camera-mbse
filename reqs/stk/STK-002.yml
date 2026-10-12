@@ -1,0 +1,10 @@
+active: true
+derived: false
+header: ''
+level: 1.1
+links: []
+normative: true
+ref: ''
+reviewed: w45ouUNRFXSw5ny8WIontdo2SIYnKDHc0R58Z0nEgHs=
+text: |
+  The system shall minimize false interventions so that driver trust and vehicle controllability are not compromised.

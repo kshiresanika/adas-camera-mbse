@@ -1,0 +1,10 @@
+active: true
+derived: false
+header: ''
+level: 1.3
+links: []
+normative: true
+ref: ''
+reviewed: PgBMdScFh2aWj92hZBOTzzg5AIK-iu3i9R-tjJUdLoE=
+text: |
+  The system shall support post-event diagnosis through logged data and traceable fault information.

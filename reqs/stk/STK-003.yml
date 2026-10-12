@@ -1,0 +1,10 @@
+active: true
+derived: false
+header: ''
+level: 1.2
+links: []
+normative: true
+ref: ''
+reviewed: l8xnfRzBmf9Sx8Z5FqgTwuF8gK9a42Me9HUju2GnqbY=
+text: |
+  The system shall detect degraded perception (e.g. blinded or dirty camera) and inform the driver and the vehicle.
