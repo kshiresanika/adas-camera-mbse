@@ -135,6 +135,16 @@
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="3cf730b7-c77a-4178-85f4-4613a1840b7c" name="FIP 1"/>
           </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="aa89eecd-fb4a-4415-ac5c-ae7327f6400b" name="Be present in the scene"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="6a8db2fb-1b62-47d3-b3d3-988398795fb6" name="Perceive status and warnings"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="7637a204-9543-4c2a-934d-af0fe84e8549" name="Execute emergency braking"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="eebcc13b-9dfe-4c4b-8f5b-2f66c1d8a406" name="Distribute status and diagnostic messages"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="59ded5c3-452c-4d12-8986-cb9dbc77bdf7" name="Read out diagnostic data"/>
           <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
               id="da3afd95-c4aa-4b91-9f96-c294fba9795b" targetElement="#2338f8d0-1e8e-478c-9eaa-4a4f1dc4aa4a"
               sourceElement="#929a4f91-fe35-47bb-8d22-8989aed7434b"/>
@@ -310,15 +320,35 @@
           </ownedStateMachines>
         </ownedSystemComponents>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
-            id="9afb69a8-9960-4f27-9ed1-21f2185e4f48" name="Driver" actor="true"/>
+            id="9afb69a8-9960-4f27-9ed1-21f2185e4f48" name="Driver" actor="true">
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="2eebb872-9395-4466-8df3-e3ed0870dd54" targetElement="#6a8db2fb-1b62-47d3-b3d3-988398795fb6"
+              sourceElement="#9afb69a8-9960-4f27-9ed1-21f2185e4f48"/>
+        </ownedSystemComponents>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
-            id="6180b1c6-61b8-4fe8-a738-000f120fbab3" name="Pedestrian" actor="true"/>
+            id="6180b1c6-61b8-4fe8-a738-000f120fbab3" name="Pedestrian" actor="true">
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="139da1d2-1f4d-44a3-8872-7185777abe33" targetElement="#aa89eecd-fb4a-4415-ac5c-ae7327f6400b"
+              sourceElement="#6180b1c6-61b8-4fe8-a738-000f120fbab3"/>
+        </ownedSystemComponents>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
-            id="92c2ca70-d875-4b4f-a733-0600d3890b35" name="Brake System" actor="true"/>
+            id="92c2ca70-d875-4b4f-a733-0600d3890b35" name="Brake System" actor="true">
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="987c4424-94e7-475e-be32-b41151b725c7" targetElement="#7637a204-9543-4c2a-934d-af0fe84e8549"
+              sourceElement="#92c2ca70-d875-4b4f-a733-0600d3890b35"/>
+        </ownedSystemComponents>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
-            id="8ca932c2-321f-4de8-a4f5-95ab0454af86" name="Vehicle Network" actor="true"/>
+            id="8ca932c2-321f-4de8-a4f5-95ab0454af86" name="Vehicle Network" actor="true">
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="d37f94c9-9bb7-4155-ae4c-1e84ab94b986" targetElement="#eebcc13b-9dfe-4c4b-8f5b-2f66c1d8a406"
+              sourceElement="#8ca932c2-321f-4de8-a4f5-95ab0454af86"/>
+        </ownedSystemComponents>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
-            id="3bb0c9ac-db1b-4cb5-98a4-9507489ba331" name="Service Tool" actor="true"/>
+            id="3bb0c9ac-db1b-4cb5-98a4-9507489ba331" name="Service Tool" actor="true">
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="6ebe623f-3bb2-496e-9f52-78175d04abb6" targetElement="#59ded5c3-452c-4d12-8986-cb9dbc77bdf7"
+              sourceElement="#3bb0c9ac-db1b-4cb5-98a4-9507489ba331"/>
+        </ownedSystemComponents>
       </ownedSystemComponentPkg>
       <ownedMissionPkg xsi:type="org.polarsys.capella.core.data.ctx:MissionPkg" id="a78ae39d-1392-4719-a385-5e6a3baebd64"
           name="Missions"/>
