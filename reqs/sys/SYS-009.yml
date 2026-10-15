@@ -1,0 +1,16 @@
+active: true
+asil: QM
+capella_ref: Detect pedestrians
+derived: false
+header: ''
+level: 1.8
+links:
+- STK-006: FmIvdjQaNMcr3TXcjX_31TqFO_fyWj4e4YAO6cSkq4U=
+normative: true
+rationale: The function must work in realistic lighting and weather conditions.
+ref: ''
+reviewed: s_kX5w2JszoHMMFDZiLRoJrXF8Yc-H9vaYikXJX06_s=
+scenarios: SC-01, SC-02, SC-03, SC-04
+text: |
+  The system shall meet its detection and monitoring requirements in the operating conditions SC-01 to SC-04.
+verification_method: test

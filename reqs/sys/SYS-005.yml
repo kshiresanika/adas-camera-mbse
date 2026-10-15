@@ -1,0 +1,16 @@
+active: true
+asil: B
+capella_ref: Monitor perception health
+derived: false
+header: ''
+level: 1.4
+links:
+- STK-003: l8xnfRzBmf9Sx8Z5FqgTwuF8gK9a42Me9HUju2GnqbY=
+normative: true
+rationale: Degraded images silently reduce detection performance.
+ref: ''
+reviewed: 4iQmxp-ODUktcTkc0f2V5cfgpmN54GeMfX_B953J5GA=
+scenarios: SC-04
+text: |
+  The system shall detect a blinded, dirty or faulty camera.
+verification_method: test

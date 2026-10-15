@@ -1,0 +1,16 @@
+active: true
+asil: QM
+capella_ref: Log diagnostic data
+derived: false
+header: ''
+level: 1.6
+links:
+- STK-004: PgBMdScFh2aWj92hZBOTzzg5AIK-iu3i9R-tjJUdLoE=
+normative: true
+rationale: Logged data supports root-cause analysis after incidents.
+ref: ''
+reviewed: -hHoNpeRuasxE2ZkdBVJJ-Bxb8s7S3kVcHzgYskgRmg=
+scenarios: ''
+text: |
+  The system shall log diagnostic data for every AEB request and every degraded perception state.
+verification_method: demonstration

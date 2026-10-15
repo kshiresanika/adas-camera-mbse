@@ -1,0 +1,16 @@
+active: true
+asil: D
+capella_ref: Detect pedestrians
+derived: false
+header: ''
+level: 1.0
+links:
+- STK-001: mwSiyjAuA5FkhERF_MZGWskCOpjzTjqdSiV9gL3tULE=
+normative: true
+rationale: Detection is the precondition for any pedestrian protection.
+ref: ''
+reviewed: S3hpWEDn0wCm4CrFaFhL9i9RTXj0J_I1lTtgWcW16rM=
+scenarios: SC-01, SC-02, SC-03
+text: |
+  The system shall detect pedestrians in the forward field of view of the vehicle.
+verification_method: test

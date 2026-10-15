@@ -1,0 +1,16 @@
+active: true
+asil: n/a
+capella_ref: all system functions
+derived: false
+header: ''
+level: 1.9
+links:
+- STK-005: 5TDBWHGy8YxAzL8ozpgfW5SgE9X4CJ8ohvXwti8e2f4=
+normative: true
+rationale: Safety-related functions require a compliant development process.
+ref: ''
+reviewed: vcYmKLDbHAZbxtx2SfhN2W1lzEtqu2ZTi9BWWqsBPzo=
+scenarios: ''
+text: |
+  The system shall be developed in accordance with ISO 26262 for the ASIL allocated to each function.
+verification_method: analysis

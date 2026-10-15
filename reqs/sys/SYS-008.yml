@@ -1,0 +1,16 @@
+active: true
+asil: QM
+capella_ref: Log diagnostic data
+derived: false
+header: ''
+level: 1.7
+links:
+- STK-004: PgBMdScFh2aWj92hZBOTzzg5AIK-iu3i9R-tjJUdLoE=
+normative: true
+rationale: Service staff need access to the data for fault analysis.
+ref: ''
+reviewed: 6OGxgm129MVSZ_ocZfp3BgaHP0CuzXADSnmiCjFfi6c=
+scenarios: ''
+text: |
+  The system shall provide the logged diagnostic data to a connected service tool.
+verification_method: demonstration

@@ -1,0 +1,16 @@
+active: true
+asil: D
+capella_ref: Decide AEB request
+derived: false
+header: ''
+level: 1.2
+links:
+- STK-001: mwSiyjAuA5FkhERF_MZGWskCOpjzTjqdSiV9gL3tULE=
+normative: true
+rationale: Braking late reduces or removes the benefit of the intervention.
+ref: ''
+reviewed: t2aA_F2aoNzcXQnp6IwBuhNo9Eat7fMFaqgHQEVw-c8=
+scenarios: SC-01, SC-02
+text: |
+  The system shall issue the AEB request within TBD ms after the collision risk exceeds the threshold.
+verification_method: test

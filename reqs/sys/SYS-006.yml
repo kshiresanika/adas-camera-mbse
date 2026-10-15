@@ -1,0 +1,16 @@
+active: true
+asil: B
+capella_ref: Output status to driver and vehicle
+derived: false
+header: ''
+level: 1.5
+links:
+- STK-003: l8xnfRzBmf9Sx8Z5FqgTwuF8gK9a42Me9HUju2GnqbY=
+normative: true
+rationale: The driver and the vehicle must know when the function is limited.
+ref: ''
+reviewed: sH8y2dy7RCDpwfclnpV23ETIgHicBfsM0C_ztY-uBIc=
+scenarios: SC-04
+text: |
+  The system shall report degraded perception to the driver and the vehicle network within TBD ms of detecting it.
+verification_method: test

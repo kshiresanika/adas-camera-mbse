@@ -1,0 +1,16 @@
+active: true
+asil: B
+capella_ref: Decide AEB request
+derived: false
+header: ''
+level: 1.3
+links:
+- STK-002: w45ouUNRFXSw5ny8WIontdo2SIYnKDHc0R58Z0nEgHs=
+normative: true
+rationale: Unwarranted braking can cause accidents and erodes driver trust.
+ref: ''
+reviewed: ss6vmq_ea-ePuaL_7A5Np2ODACLaZ46Z5_931-u9R1I=
+scenarios: SC-03, SC-04
+text: |
+  The system shall not issue an AEB request when no valid pedestrian detection exists.
+verification_method: test

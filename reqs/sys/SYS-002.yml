@@ -1,0 +1,16 @@
+active: true
+asil: D
+capella_ref: Decide AEB request
+derived: false
+header: ''
+level: 1.1
+links:
+- STK-001: mwSiyjAuA5FkhERF_MZGWskCOpjzTjqdSiV9gL3tULE=
+normative: true
+rationale: The AEB request is the system's main safety output.
+ref: ''
+reviewed: p7bHmXIKFy_tJtyR9-V_2Q8D7y-COcz17lu3ayY8nxU=
+scenarios: SC-01, SC-02, SC-03
+text: |
+  The system shall request AEB when the predicted collision risk exceeds the threshold TBD.
+verification_method: test
