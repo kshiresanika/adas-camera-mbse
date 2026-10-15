@@ -81,6 +81,8 @@
             id="929a4f91-fe35-47bb-8d22-8989aed7434b" name="Root System Function">
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
               id="d99c4ac0-c94d-4e5a-8958-c8db8b3f64d0" name="Capture camera image">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="e892fc97-18c0-4b81-835c-d84c04ed9c85" name="FIP 1"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
                 id="24af3c51-9c24-4456-b831-8dfa6d2e3c3e" name="FOP 1"/>
           </ownedFunctions>
@@ -117,6 +119,8 @@
                 id="daf6fd5c-abc8-4a94-9ab7-1162e5a0332a" name="FOP 1"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
                 id="491cab32-e95a-43ce-99d5-9e5fec56d40b" name="FOP 2"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="fe892913-5c3d-4181-b2b2-df639fb9a1df" name="FOP 3"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
               id="22996b47-b253-473d-9a71-6bc60f390dd5" name="Monitor perception health">
@@ -129,22 +133,43 @@
               id="15306a1e-7080-4e79-bd3b-ee1e1cf9cc3d" name="Log diagnostic data">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="ad461504-5b2b-4ba6-9fb3-c700aa1af0e6" name="FIP 1"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="79a6d3f2-b426-470a-802a-f57b448ddb9c" name="FOP 1"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
               id="8cc3d2d1-0955-4a7e-abe0-0c87259825f4" name="Output status to driver and vehicle">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="3cf730b7-c77a-4178-85f4-4613a1840b7c" name="FIP 1"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="7a8a6af9-631f-4cec-b83a-ea6cd6050e4f" name="FOP 1"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="1371066d-1af8-47bc-b776-09b0360ddc8d" name="FOP 2"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="aa89eecd-fb4a-4415-ac5c-ae7327f6400b" name="Be present in the scene"/>
+              id="aa89eecd-fb4a-4415-ac5c-ae7327f6400b" name="Be present in the scene">
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="7da70f7d-de52-4828-9eb1-c72dba6cd8f9" name="FOP 1"/>
+          </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="6a8db2fb-1b62-47d3-b3d3-988398795fb6" name="Perceive status and warnings"/>
+              id="6a8db2fb-1b62-47d3-b3d3-988398795fb6" name="Perceive status and warnings">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="804e0e4d-b4d8-402b-aec1-5e317c53bea9" name="FIP 1"/>
+          </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="7637a204-9543-4c2a-934d-af0fe84e8549" name="Execute emergency braking"/>
+              id="7637a204-9543-4c2a-934d-af0fe84e8549" name="Execute emergency braking">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="9017fa96-da84-41ef-8c74-a5425802d732" name="FIP 1"/>
+          </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="eebcc13b-9dfe-4c4b-8f5b-2f66c1d8a406" name="Distribute status and diagnostic messages"/>
+              id="eebcc13b-9dfe-4c4b-8f5b-2f66c1d8a406" name="Distribute status and diagnostic messages">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="dfeebbbc-a973-4d09-bb88-62312b64fbae" name="FIP 1"/>
+          </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="59ded5c3-452c-4d12-8986-cb9dbc77bdf7" name="Read out diagnostic data"/>
+              id="59ded5c3-452c-4d12-8986-cb9dbc77bdf7" name="Read out diagnostic data">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="09df3fb5-efad-4d98-9e09-5d50fffbe1df" name="FIP 1"/>
+          </ownedFunctions>
           <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
               id="da3afd95-c4aa-4b91-9f96-c294fba9795b" targetElement="#2338f8d0-1e8e-478c-9eaa-4a4f1dc4aa4a"
               sourceElement="#929a4f91-fe35-47bb-8d22-8989aed7434b"/>
@@ -172,6 +197,21 @@
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="6fb2bf7c-4b07-450a-a34b-5b9b8123b3ca" name="AEB event" target="#ad461504-5b2b-4ba6-9fb3-c700aa1af0e6"
               source="#491cab32-e95a-43ce-99d5-9e5fec56d40b"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="b6af639b-9d6a-424b-b911-46ef63ddf4e4" name="visual scene" target="#e892fc97-18c0-4b81-835c-d84c04ed9c85"
+              source="#7da70f7d-de52-4828-9eb1-c72dba6cd8f9"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="5aa4cdef-786a-481e-ac64-2423a485c43e" name="AEB brake request" target="#9017fa96-da84-41ef-8c74-a5425802d732"
+              source="#fe892913-5c3d-4181-b2b2-df639fb9a1df"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="5d26f73c-1894-4c54-aadc-1046da2a551f" name="driver warning" target="#804e0e4d-b4d8-402b-aec1-5e317c53bea9"
+              source="#7a8a6af9-631f-4cec-b83a-ea6cd6050e4f"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="32f934a0-9c5f-494b-8d36-963ccd4849c3" name="vehicle status message"
+              target="#dfeebbbc-a973-4d09-bb88-62312b64fbae" source="#1371066d-1af8-47bc-b776-09b0360ddc8d"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="0fdd578d-cebc-4258-8e28-494f42f4766a" name="diagnostic data" target="#09df3fb5-efad-4d98-9e09-5d50fffbe1df"
+              source="#79a6d3f2-b426-470a-802a-f57b448ddb9c"/>
         </ownedSystemFunctions>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.ctx:CapabilityPkg"
