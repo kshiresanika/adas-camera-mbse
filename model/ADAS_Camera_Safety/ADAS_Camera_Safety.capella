@@ -115,6 +115,8 @@
                 id="2aa0ea93-d071-44ca-b54e-5b9948e05103" name="FIP 2"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
                 id="daf6fd5c-abc8-4a94-9ab7-1162e5a0332a" name="FOP 1"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="491cab32-e95a-43ce-99d5-9e5fec56d40b" name="FOP 2"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
               id="22996b47-b253-473d-9a71-6bc60f390dd5" name="Monitor perception health">
@@ -124,7 +126,10 @@
                 id="6c3d462e-ca89-41c0-81ec-73a1945be055" name="FOP 1"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="15306a1e-7080-4e79-bd3b-ee1e1cf9cc3d" name="Log diagnostic data"/>
+              id="15306a1e-7080-4e79-bd3b-ee1e1cf9cc3d" name="Log diagnostic data">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="ad461504-5b2b-4ba6-9fb3-c700aa1af0e6" name="FIP 1"/>
+          </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
               id="8cc3d2d1-0955-4a7e-abe0-0c87259825f4" name="Output status to driver and vehicle">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
@@ -154,6 +159,9 @@
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="2c5642c7-6f16-47b6-b789-8f7ab34799b4" name="AEB request and system state"
               target="#3cf730b7-c77a-4178-85f4-4613a1840b7c" source="#daf6fd5c-abc8-4a94-9ab7-1162e5a0332a"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="6fb2bf7c-4b07-450a-a34b-5b9b8123b3ca" name="AEB event" target="#ad461504-5b2b-4ba6-9fb3-c700aa1af0e6"
+              source="#491cab32-e95a-43ce-99d5-9e5fec56d40b"/>
         </ownedSystemFunctions>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.ctx:CapabilityPkg"
@@ -271,6 +279,30 @@
             name="Service Tool" abstractType="#3bb0c9ac-db1b-4cb5-98a4-9507489ba331"/>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
             id="91bae75c-67d9-425c-a1e6-3be17a3f34bd" name="Camera Perception and Safety Monitor">
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="29340540-faf7-4e94-a22c-977db8545998" targetElement="#d99c4ac0-c94d-4e5a-8958-c8db8b3f64d0"
+              sourceElement="#91bae75c-67d9-425c-a1e6-3be17a3f34bd"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="1bb15eb6-b14a-4d21-9c41-da8396272208" targetElement="#f37cca96-6219-47f1-a82f-de8bcd993448"
+              sourceElement="#91bae75c-67d9-425c-a1e6-3be17a3f34bd"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="995a4ce3-4b3a-4239-8ebc-70917d424921" targetElement="#9818dc87-edb3-44ea-87ae-4312a33d99fc"
+              sourceElement="#91bae75c-67d9-425c-a1e6-3be17a3f34bd"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="157288f3-6195-402f-8c08-6981b27f58a9" targetElement="#8851b4d5-62fd-4d36-ab29-0b9b6066abdb"
+              sourceElement="#91bae75c-67d9-425c-a1e6-3be17a3f34bd"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="9b088465-700a-4cf7-834e-cd8bcb553999" targetElement="#799f21b0-f067-4076-abd3-97b63f53af69"
+              sourceElement="#91bae75c-67d9-425c-a1e6-3be17a3f34bd"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="8c744927-abd3-42cf-8e70-3a596ba93a4a" targetElement="#22996b47-b253-473d-9a71-6bc60f390dd5"
+              sourceElement="#91bae75c-67d9-425c-a1e6-3be17a3f34bd"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="7e661acd-001a-48ff-ab9a-cb780dc8fb54" targetElement="#15306a1e-7080-4e79-bd3b-ee1e1cf9cc3d"
+              sourceElement="#91bae75c-67d9-425c-a1e6-3be17a3f34bd"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="86b20a11-8058-45c1-a6d5-ca21d98f679d" targetElement="#8cc3d2d1-0955-4a7e-abe0-0c87259825f4"
+              sourceElement="#91bae75c-67d9-425c-a1e6-3be17a3f34bd"/>
           <ownedStateMachines xsi:type="org.polarsys.capella.core.data.capellacommon:StateMachine"
               id="4800b839-2709-47cb-bc46-4612259df025" name="System State Machine">
             <ownedRegions xsi:type="org.polarsys.capella.core.data.capellacommon:Region"
