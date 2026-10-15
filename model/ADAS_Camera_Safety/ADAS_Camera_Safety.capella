@@ -79,9 +79,81 @@
           id="5d2113e1-85f5-4b4a-9702-60ccb53e9869" name="System Functions">
         <ownedSystemFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
             id="929a4f91-fe35-47bb-8d22-8989aed7434b" name="Root System Function">
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="d99c4ac0-c94d-4e5a-8958-c8db8b3f64d0" name="Capture camera image">
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="24af3c51-9c24-4456-b831-8dfa6d2e3c3e" name="FOP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="f37cca96-6219-47f1-a82f-de8bcd993448" name="Process image (ISP)">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="bbd983de-ed4f-449d-be45-a63431a092db" name="FIP 1"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="e57bc813-eb98-4f75-bbc3-21f6f23a3603" name="FOP 1"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="f783ebb7-b2db-4700-9954-159021fc9359" name="FOP 2"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="9818dc87-edb3-44ea-87ae-4312a33d99fc" name="Detect pedestrians">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="bc40ede4-2b68-4792-90c7-517c7e31a973" name="FIP 1"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="fabb2a94-1cf6-46f8-9e0d-d39bdef23d86" name="FOP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="8851b4d5-62fd-4d36-ab29-0b9b6066abdb" name="Track pedestrians and predict collision risk">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="80da3177-4492-4228-a062-599df314a934" name="FIP 1"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="81f5e77a-9295-4a62-8f24-f35a75d2e488" name="FOP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="799f21b0-f067-4076-abd3-97b63f53af69" name="Decide AEB request">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="0ddeafb9-beae-48c4-8568-a8daa4bd6af2" name="FIP 1"/>
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="2aa0ea93-d071-44ca-b54e-5b9948e05103" name="FIP 2"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="daf6fd5c-abc8-4a94-9ab7-1162e5a0332a" name="FOP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="22996b47-b253-473d-9a71-6bc60f390dd5" name="Monitor perception health">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="f6c22f30-bf05-49eb-96df-ba04362465af" name="FIP 1"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="6c3d462e-ca89-41c0-81ec-73a1945be055" name="FOP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="15306a1e-7080-4e79-bd3b-ee1e1cf9cc3d" name="Log diagnostic data"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="8cc3d2d1-0955-4a7e-abe0-0c87259825f4" name="Output status to driver and vehicle">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="3cf730b7-c77a-4178-85f4-4613a1840b7c" name="FIP 1"/>
+          </ownedFunctions>
           <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
               id="da3afd95-c4aa-4b91-9f96-c294fba9795b" targetElement="#2338f8d0-1e8e-478c-9eaa-4a4f1dc4aa4a"
               sourceElement="#929a4f91-fe35-47bb-8d22-8989aed7434b"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="e5319a1a-6a93-4604-8352-5288e3e8f507" name="raw image" target="#bbd983de-ed4f-449d-be45-a63431a092db"
+              source="#24af3c51-9c24-4456-b831-8dfa6d2e3c3e"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="49474544-c3aa-4f2a-b2ac-f261a2367a83" name="processed image" target="#bc40ede4-2b68-4792-90c7-517c7e31a973"
+              source="#e57bc813-eb98-4f75-bbc3-21f6f23a3603"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="5cdfe821-0762-419a-b33b-4f4935bc4a02" name="object list" target="#80da3177-4492-4228-a062-599df314a934"
+              source="#fabb2a94-1cf6-46f8-9e0d-d39bdef23d86"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="85ecbe36-7e5e-4eaa-898e-3a137e8328ba" name="collision risk" target="#0ddeafb9-beae-48c4-8568-a8daa4bd6af2"
+              source="#81f5e77a-9295-4a62-8f24-f35a75d2e488"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="5ac81c7c-3c32-479b-b169-e2ca355512fe" name="image quality metrics"
+              target="#f6c22f30-bf05-49eb-96df-ba04362465af" source="#f783ebb7-b2db-4700-9954-159021fc9359"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="5775cbfe-e5e8-43a3-97a0-49a2ab04c727" name="health status" target="#2aa0ea93-d071-44ca-b54e-5b9948e05103"
+              source="#6c3d462e-ca89-41c0-81ec-73a1945be055"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="2c5642c7-6f16-47b6-b789-8f7ab34799b4" name="AEB request and system state"
+              target="#3cf730b7-c77a-4178-85f4-4613a1840b7c" source="#daf6fd5c-abc8-4a94-9ab7-1162e5a0332a"/>
         </ownedSystemFunctions>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.ctx:CapabilityPkg"
@@ -186,15 +258,35 @@
       <ownedSystemComponentPkg xsi:type="org.polarsys.capella.core.data.ctx:SystemComponentPkg"
           id="cc0d6a37-08f2-4424-9753-e02fb5451662" name="Structure">
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="6839ad84-4237-4f21-839c-7fa0539c0306"
-            name="System" abstractType="#91bae75c-67d9-425c-a1e6-3be17a3f34bd"/>
+            name="Camera Perception and Safety Monitor" abstractType="#91bae75c-67d9-425c-a1e6-3be17a3f34bd"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="66921def-62a5-42e4-a6d2-ece8b8dc118b"
+            name="Driver" abstractType="#9afb69a8-9960-4f27-9ed1-21f2185e4f48"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="3b5e3691-e5bd-41e9-a93b-ede94843dae4"
+            name="Pedestrian" abstractType="#6180b1c6-61b8-4fe8-a738-000f120fbab3"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="eede7953-cdfd-43b2-8351-2e57d354b4ab"
+            name="Brake System" abstractType="#92c2ca70-d875-4b4f-a733-0600d3890b35"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="4ea4bf6e-54da-49a2-814b-639034b82047"
+            name="Vehicle Network" abstractType="#8ca932c2-321f-4de8-a4f5-95ab0454af86"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="024dc313-766d-4925-b4db-de6e2c595e48"
+            name="Service Tool" abstractType="#3bb0c9ac-db1b-4cb5-98a4-9507489ba331"/>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
-            id="91bae75c-67d9-425c-a1e6-3be17a3f34bd" name="System">
+            id="91bae75c-67d9-425c-a1e6-3be17a3f34bd" name="Camera Perception and Safety Monitor">
           <ownedStateMachines xsi:type="org.polarsys.capella.core.data.capellacommon:StateMachine"
               id="4800b839-2709-47cb-bc46-4612259df025" name="System State Machine">
             <ownedRegions xsi:type="org.polarsys.capella.core.data.capellacommon:Region"
                 id="a3090484-7a7c-4033-b74b-adfb36fd0481" name="Default Region"/>
           </ownedStateMachines>
         </ownedSystemComponents>
+        <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
+            id="9afb69a8-9960-4f27-9ed1-21f2185e4f48" name="Driver" actor="true"/>
+        <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
+            id="6180b1c6-61b8-4fe8-a738-000f120fbab3" name="Pedestrian" actor="true"/>
+        <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
+            id="92c2ca70-d875-4b4f-a733-0600d3890b35" name="Brake System" actor="true"/>
+        <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
+            id="8ca932c2-321f-4de8-a4f5-95ab0454af86" name="Vehicle Network" actor="true"/>
+        <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
+            id="3bb0c9ac-db1b-4cb5-98a4-9507489ba331" name="Service Tool" actor="true"/>
       </ownedSystemComponentPkg>
       <ownedMissionPkg xsi:type="org.polarsys.capella.core.data.ctx:MissionPkg" id="a78ae39d-1392-4719-a385-5e6a3baebd64"
           name="Missions"/>
