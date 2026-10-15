@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:concern="http://www.eclipse.org/sirius/diagram/description/concern/1.1.0" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:filter="http://www.eclipse.org/sirius/diagram/description/filter/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:org.polarsys.capella.core.data.oa="http://www.polarsys.org/capella/core/oa/7.0.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/diagram/description/concern/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/concern http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/filter/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/filter http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_TuWPkMfIEfGUSsGzdkWa_Q" selectedViews="_WVPZUMfIEfGUSsGzdkWa_Q _WWZ28MfIEfGUSsGzdkWa_Q _WdZPwMfIEfGUSsGzdkWa_Q _WfPC0MfIEfGUSsGzdkWa_Q _Wf6_UMfIEfGUSsGzdkWa_Q _WgMsIMfIEfGUSsGzdkWa_Q" version="15.4.1.202403191723">
+    <semanticResources>ADAS_Camera_Safety.afm</semanticResources>
+    <semanticResources>ADAS_Camera_Safety.capella</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_WVPZUMfIEfGUSsGzdkWa_Q">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.kitalpha.ad.integration.sirius/description/ad.odesign#//@ownedViewpoints[name='ad']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_WWZ28MfIEfGUSsGzdkWa_Q">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_WdZPwMfIEfGUSsGzdkWa_Q">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_fR_38MfTEfGUSsGzdkWa_Q" name="OAB Context" repPath="#_fRjzEMfTEfGUSsGzdkWa_Q" changeId="1792005929870">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']"/>
+        <target xmi:type="org.polarsys.capella.core.data.oa:EntityPkg" href="ADAS_Camera_Safety.capella#f8ad8056-c61c-418f-8ded-a74357455c21"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_cMsLsMgGEfGUSsGzdkWa_Q" name="Protect pedestrians through emergency braking" repPath="#_cMpvcMgGEfGUSsGzdkWa_Q" changeId="1792008055561">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']"/>
+        <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg" href="ADAS_Camera_Safety.capella#c289f092-4889-480d-bf2c-24c6e45b4c7d"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_M1pTwMgHEfGUSsGzdkWa_Q" name="Inform driver about degraded perception" repPath="#_M1ossMgHEfGUSsGzdkWa_Q" changeId="1792006867715">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']"/>
+        <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg" href="ADAS_Camera_Safety.capella#c289f092-4889-480d-bf2c-24c6e45b4c7d"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_PGnQ0MgHEfGUSsGzdkWa_Q" name="Support post-event diagnosis" repPath="#_PGmpwMgHEfGUSsGzdkWa_Q" changeId="1792006882914">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']"/>
+        <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg" href="ADAS_Camera_Safety.capella#c289f092-4889-480d-bf2c-24c6e45b4c7d"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_WfPC0MfIEfGUSsGzdkWa_Q">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_Wf6_UMfIEfGUSsGzdkWa_Q">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_WgMsIMfIEfGUSsGzdkWa_Q">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']"/>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_fRjzEMfTEfGUSsGzdkWa_Q">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_fSXrYMfTEfGUSsGzdkWa_Q" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_fSYScMfTEfGUSsGzdkWa_Q" type="Sirius" element="_fRjzEMfTEfGUSsGzdkWa_Q" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_vJxLoMgEEfGUSsGzdkWa_Q" type="2002" element="_vIyUMMgEEfGUSsGzdkWa_Q">
+          <children xmi:type="notation:Node" xmi:id="_vJ2rMMgEEfGUSsGzdkWa_Q" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_vJ68oMgEEfGUSsGzdkWa_Q" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_vJ68ocgEEfGUSsGzdkWa_Q"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_vJ68osgEEfGUSsGzdkWa_Q"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_vJxLocgEEfGUSsGzdkWa_Q" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vJxLosgEEfGUSsGzdkWa_Q" x="60" y="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_20uFIMgEEfGUSsGzdkWa_Q" type="2002" element="_20eNgMgEEfGUSsGzdkWa_Q">
+          <children xmi:type="notation:Node" xmi:id="_20vTQMgEEfGUSsGzdkWa_Q" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_20v6UMgEEfGUSsGzdkWa_Q" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_20v6UcgEEfGUSsGzdkWa_Q"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_20v6UsgEEfGUSsGzdkWa_Q"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_20uFIcgEEfGUSsGzdkWa_Q" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_20uFIsgEEfGUSsGzdkWa_Q" x="320" y="74"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_5-YkwMgEEfGUSsGzdkWa_Q" type="2002" element="_5-MXgMgEEfGUSsGzdkWa_Q">
+          <children xmi:type="notation:Node" xmi:id="_5-Zy4MgEEfGUSsGzdkWa_Q" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_5-Zy4cgEEfGUSsGzdkWa_Q" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_5-Zy4sgEEfGUSsGzdkWa_Q"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_5-Zy48gEEfGUSsGzdkWa_Q"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_5-YkwcgEEfGUSsGzdkWa_Q" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5-ZL0MgEEfGUSsGzdkWa_Q" x="560" y="108"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_-Ub_AMgEEfGUSsGzdkWa_Q" type="2002" element="_-UQ_4MgEEfGUSsGzdkWa_Q">
+          <children xmi:type="notation:Node" xmi:id="_-UcmEMgEEfGUSsGzdkWa_Q" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_-UcmEcgEEfGUSsGzdkWa_Q" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_-UcmEsgEEfGUSsGzdkWa_Q"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_-UcmE8gEEfGUSsGzdkWa_Q"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_-Ub_AcgEEfGUSsGzdkWa_Q" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-Ub_AsgEEfGUSsGzdkWa_Q" x="810" y="142"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_fSYSccfTEfGUSsGzdkWa_Q"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_fTDA0MfTEfGUSsGzdkWa_Q" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_fTEO8MfTEfGUSsGzdkWa_Q"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_vIyUMMgEEfGUSsGzdkWa_Q" name="Driver">
+      <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="ADAS_Camera_Safety.capella#799a5404-cc43-490d-ac02-64f21e68623c"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="ADAS_Camera_Safety.capella#799a5404-cc43-490d-ac02-64f21e68623c"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_vJAWoMgEEfGUSsGzdkWa_Q" borderSize="1" borderSizeComputationExpression="1" borderColor="69,69,69" backgroundStyle="GradientTopToBottom" backgroundColor="249,248,245" foregroundColor="221,221,200">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_20eNgMgEEfGUSsGzdkWa_Q" name="Pedestrain">
+      <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="ADAS_Camera_Safety.capella#b0923753-c5c3-4970-b04d-5112db4fd5e6"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="ADAS_Camera_Safety.capella#b0923753-c5c3-4970-b04d-5112db4fd5e6"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_20eNgcgEEfGUSsGzdkWa_Q" borderSize="1" borderSizeComputationExpression="1" borderColor="69,69,69" backgroundStyle="GradientTopToBottom" backgroundColor="249,248,245" foregroundColor="221,221,200">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_5-MXgMgEEfGUSsGzdkWa_Q" name="Servide technician">
+      <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="ADAS_Camera_Safety.capella#a7595899-a30a-4d81-8466-2d1ef8db6a68"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="ADAS_Camera_Safety.capella#a7595899-a30a-4d81-8466-2d1ef8db6a68"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_5-M-kMgEEfGUSsGzdkWa_Q" borderSize="1" borderSizeComputationExpression="1" borderColor="69,69,69" backgroundStyle="GradientTopToBottom" backgroundColor="249,248,245" foregroundColor="221,221,200">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_-UQ_4MgEEfGUSsGzdkWa_Q" name="Vehicle brake system">
+      <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="ADAS_Camera_Safety.capella#3602547b-e460-4a34-8d92-5665a9c87fbe"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="ADAS_Camera_Safety.capella#3602547b-e460-4a34-8d92-5665a9c87fbe"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_-USOAMgEEfGUSsGzdkWa_Q" borderSize="1" borderSizeComputationExpression="1" borderColor="69,69,69" backgroundStyle="GradientTopToBottom" backgroundColor="249,248,245" foregroundColor="221,221,200">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']"/>
+    <currentConcern xmi:type="concern:ConcernDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@concerns/@ownedConcernDescriptions.0"/>
+    <activatedFilters xmi:type="filter:CompositeFilterDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@filters[name='hide.sequencing.information.filter']"/>
+    <activatedFilters xmi:type="filter:CompositeFilterDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@filters[name='hide.overlappedfunctional.chains.label.filter']"/>
+    <activatedFilters xmi:type="filter:CompositeFilterDescription" href="platform:/plugin/org.polarsys.kitalpha.ad.integration.sirius/description/ad.odesign#//@ownedViewpoints[name='ad']/@ownedRepresentations[name='AD%20diagram']/@filters[name='ModelExtensionFilter']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_fRuLIMfTEfGUSsGzdkWa_Q"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer"/>
+    <target xmi:type="org.polarsys.capella.core.data.oa:EntityPkg" href="ADAS_Camera_Safety.capella#f8ad8056-c61c-418f-8ded-a74357455c21"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_cMpvcMgGEfGUSsGzdkWa_Q">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_cMuA4MgGEfGUSsGzdkWa_Q" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_cMuA4cgGEfGUSsGzdkWa_Q" type="Sirius" element="_cMpvcMgGEfGUSsGzdkWa_Q" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_WolikMgJEfGUSsGzdkWa_Q" type="2002" element="_WoifQcgJEfGUSsGzdkWa_Q">
+          <children xmi:type="notation:Node" xmi:id="_WomJoMgJEfGUSsGzdkWa_Q" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_WomJocgJEfGUSsGzdkWa_Q" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_WomJosgJEfGUSsGzdkWa_Q"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_WomJo8gJEfGUSsGzdkWa_Q"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_WolikcgJEfGUSsGzdkWa_Q" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WoliksgJEfGUSsGzdkWa_Q" x="140" y="70"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_XEh3sMgJEfGUSsGzdkWa_Q" type="2002" element="_XEfbccgJEfGUSsGzdkWa_Q">
+          <children xmi:type="notation:Node" xmi:id="_XEiewMgJEfGUSsGzdkWa_Q" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_XEiewcgJEfGUSsGzdkWa_Q" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_XEiewsgJEfGUSsGzdkWa_Q"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_XEiew8gJEfGUSsGzdkWa_Q"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_XEh3scgJEfGUSsGzdkWa_Q" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XEh3ssgJEfGUSsGzdkWa_Q" x="220" y="180"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_XxiusMgJEfGUSsGzdkWa_Q" type="2002" element="_XxgSccgJEfGUSsGzdkWa_Q">
+          <children xmi:type="notation:Node" xmi:id="_Xxj80MgJEfGUSsGzdkWa_Q" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_Xxj80cgJEfGUSsGzdkWa_Q" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_Xxj80sgJEfGUSsGzdkWa_Q"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_Xxj808gJEfGUSsGzdkWa_Q"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_XxiuscgJEfGUSsGzdkWa_Q" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XxiussgJEfGUSsGzdkWa_Q" x="420" y="490"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_cMuA4sgGEfGUSsGzdkWa_Q"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_cMy5YMgGEfGUSsGzdkWa_Q" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_cMy5YcgGEfGUSsGzdkWa_Q"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_WoifQcgJEfGUSsGzdkWa_Q" name="Driver">
+      <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="ADAS_Camera_Safety.capella#799a5404-cc43-490d-ac02-64f21e68623c"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="ADAS_Camera_Safety.capella#799a5404-cc43-490d-ac02-64f21e68623c"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_WoifQsgJEfGUSsGzdkWa_Q" borderSize="1" borderSizeComputationExpression="1" borderColor="69,69,69" backgroundStyle="GradientTopToBottom" backgroundColor="249,248,245" foregroundColor="221,221,200">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@containerMappings[name='COC_OperationalEntities']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@containerMappings[name='COC_OperationalEntities']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_XEfbccgJEfGUSsGzdkWa_Q" name="Pedestrain">
+      <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="ADAS_Camera_Safety.capella#b0923753-c5c3-4970-b04d-5112db4fd5e6"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="ADAS_Camera_Safety.capella#b0923753-c5c3-4970-b04d-5112db4fd5e6"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_XEfbcsgJEfGUSsGzdkWa_Q" borderSize="1" borderSizeComputationExpression="1" borderColor="69,69,69" backgroundStyle="GradientTopToBottom" backgroundColor="249,248,245" foregroundColor="221,221,200">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@containerMappings[name='COC_OperationalEntities']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@containerMappings[name='COC_OperationalEntities']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_XxgSccgJEfGUSsGzdkWa_Q" name="Vehicle brake system">
+      <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="ADAS_Camera_Safety.capella#3602547b-e460-4a34-8d92-5665a9c87fbe"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="ADAS_Camera_Safety.capella#3602547b-e460-4a34-8d92-5665a9c87fbe"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_XxgScsgJEfGUSsGzdkWa_Q" borderSize="1" borderSizeComputationExpression="1" borderColor="69,69,69" backgroundStyle="GradientTopToBottom" backgroundColor="249,248,245" foregroundColor="221,221,200">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@containerMappings[name='COC_OperationalEntities']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@containerMappings[name='COC_OperationalEntities']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']"/>
+    <activatedFilters xmi:type="filter:CompositeFilterDescription" href="platform:/plugin/org.polarsys.kitalpha.ad.integration.sirius/description/ad.odesign#//@ownedViewpoints[name='ad']/@ownedRepresentations[name='AD%20diagram']/@filters[name='ModelExtensionFilter']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_cMpvccgGEfGUSsGzdkWa_Q"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer"/>
+    <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg" href="ADAS_Camera_Safety.capella#c289f092-4889-480d-bf2c-24c6e45b4c7d"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_M1ossMgHEfGUSsGzdkWa_Q">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_M1qh4MgHEfGUSsGzdkWa_Q" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_M1qh4cgHEfGUSsGzdkWa_Q" type="Sirius" element="_M1ossMgHEfGUSsGzdkWa_Q" measurementUnit="Pixel">
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_M1qh4sgHEfGUSsGzdkWa_Q"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_M1rwAMgHEfGUSsGzdkWa_Q" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_M1rwAcgHEfGUSsGzdkWa_Q"/>
+    </ownedAnnotationEntries>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']"/>
+    <activatedFilters xmi:type="filter:CompositeFilterDescription" href="platform:/plugin/org.polarsys.kitalpha.ad.integration.sirius/description/ad.odesign#//@ownedViewpoints[name='ad']/@ownedRepresentations[name='AD%20diagram']/@filters[name='ModelExtensionFilter']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_M1osscgHEfGUSsGzdkWa_Q"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer"/>
+    <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg" href="ADAS_Camera_Safety.capella#c289f092-4889-480d-bf2c-24c6e45b4c7d"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_PGmpwMgHEfGUSsGzdkWa_Q">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_PGoe8MgHEfGUSsGzdkWa_Q" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_PGoe8cgHEfGUSsGzdkWa_Q" type="Sirius" element="_PGmpwMgHEfGUSsGzdkWa_Q" measurementUnit="Pixel">
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_PGoe8sgHEfGUSsGzdkWa_Q"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_PGpGAMgHEfGUSsGzdkWa_Q" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_PGpGAcgHEfGUSsGzdkWa_Q"/>
+    </ownedAnnotationEntries>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']"/>
+    <activatedFilters xmi:type="filter:CompositeFilterDescription" href="platform:/plugin/org.polarsys.kitalpha.ad.integration.sirius/description/ad.odesign#//@ownedViewpoints[name='ad']/@ownedRepresentations[name='AD%20diagram']/@filters[name='ModelExtensionFilter']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_PGmpwcgHEfGUSsGzdkWa_Q"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer"/>
+    <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg" href="ADAS_Camera_Safety.capella#c289f092-4889-480d-bf2c-24c6e45b4c7d"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>
