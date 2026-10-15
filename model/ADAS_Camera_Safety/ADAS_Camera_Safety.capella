@@ -58,17 +58,17 @@
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="9e3574e1-40b2-4a77-9e57-9c3c753d31d1"
             name="Driver" abstractType="#799a5404-cc43-490d-ac02-64f21e68623c"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="a2c07ed2-4c1a-4c23-9d1a-1e95760462db"
-            name="Pedestrain" abstractType="#b0923753-c5c3-4970-b04d-5112db4fd5e6"/>
+            name="Pedestrian" abstractType="#b0923753-c5c3-4970-b04d-5112db4fd5e6"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="61a78765-7199-4224-b748-e3140e538452"
-            name="Servide technician" abstractType="#a7595899-a30a-4d81-8466-2d1ef8db6a68"/>
+            name="Service technician" abstractType="#a7595899-a30a-4d81-8466-2d1ef8db6a68"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="a5ceb11c-25d9-4328-933d-ef0f81e1f08a"
             name="Vehicle brake system" abstractType="#3602547b-e460-4a34-8d92-5665a9c87fbe"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="799a5404-cc43-490d-ac02-64f21e68623c"
             name="Driver" actor="true" human="true"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="b0923753-c5c3-4970-b04d-5112db4fd5e6"
-            name="Pedestrain" actor="true" human="true"/>
+            name="Pedestrian" actor="true" human="true"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="a7595899-a30a-4d81-8466-2d1ef8db6a68"
-            name="Servide technician" actor="true" human="true"/>
+            name="Service technician" actor="true" human="true"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="3602547b-e460-4a34-8d92-5665a9c87fbe"
             name="Vehicle brake system"/>
       </ownedEntityPkg>

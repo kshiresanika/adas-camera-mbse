@@ -1,0 +1,16 @@
+2026-10-14 14:11:13,048;Capella;7.1.0.202606231255;Open+Session;ADAS_Camera_Safety.aird;;
+2026-10-14 14:11:14,608;Capella;7.1.0.202606231255;Open+Session;ADAS_Camera_Safety.aird;OK;
+2026-10-14 14:41:55,372;Capella;7.1.0.202606231255;Create+Representation;State+And+Mode+-+Matrix;;9f933668-df9f-474a-8542-76d54d73298a
+2026-10-14 14:41:55,414;Capella;7.1.0.202606231255;Create+Representation;State+And+Mode+-+Matrix;OK;9f933668-df9f-474a-8542-76d54d73298a
+2026-10-14 14:49:00,094;Capella;7.1.0.202606231255;Open+Representation;;;
+2026-10-14 14:49:00,255;Capella;7.1.0.202606231255;Open+Representation;;OK;
+2026-10-14 15:30:57,584;Capella;7.1.0.202606231255;Create+Representation;Operational+Entity+Blank;;f8ad8056-c61c-418f-8ded-a74357455c21
+2026-10-14 15:30:57,779;Capella;7.1.0.202606231255;Create+Representation;Operational+Entity+Blank;OK;f8ad8056-c61c-418f-8ded-a74357455c21
+2026-10-14 21:35:41,287;Capella;7.1.0.202606231255;Create+Representation;Operational+Capabilities+Blank;;c289f092-4889-480d-bf2c-24c6e45b4c7d
+2026-10-14 21:35:41,303;Capella;7.1.0.202606231255;Create+Representation;Operational+Capabilities+Blank;OK;c289f092-4889-480d-bf2c-24c6e45b4c7d
+2026-10-14 21:39:43,623;Capella;7.1.0.202606231255;Open+Representation;;;
+2026-10-14 21:39:43,749;Capella;7.1.0.202606231255;Open+Representation;;OK;
+2026-10-14 21:41:07,706;Capella;7.1.0.202606231255;Create+Representation;Operational+Capabilities+Blank;;c289f092-4889-480d-bf2c-24c6e45b4c7d
+2026-10-14 21:41:07,713;Capella;7.1.0.202606231255;Create+Representation;Operational+Capabilities+Blank;OK;c289f092-4889-480d-bf2c-24c6e45b4c7d
+2026-10-14 21:41:22,906;Capella;7.1.0.202606231255;Create+Representation;Operational+Capabilities+Blank;;c289f092-4889-480d-bf2c-24c6e45b4c7d
+2026-10-14 21:41:22,912;Capella;7.1.0.202606231255;Create+Representation;Operational+Capabilities+Blank;OK;c289f092-4889-480d-bf2c-24c6e45b4c7d

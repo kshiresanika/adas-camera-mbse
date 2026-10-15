@@ -11,11 +11,11 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_WdZPwMfIEfGUSsGzdkWa_Q">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_fR_38MfTEfGUSsGzdkWa_Q" name="OAB Context" repPath="#_fRjzEMfTEfGUSsGzdkWa_Q" changeId="1792005929870">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_fR_38MfTEfGUSsGzdkWa_Q" name="OAB Context" repPath="#_fRjzEMfTEfGUSsGzdkWa_Q" changeId="1792046421539">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:EntityPkg" href="ADAS_Camera_Safety.capella#f8ad8056-c61c-418f-8ded-a74357455c21"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_cMsLsMgGEfGUSsGzdkWa_Q" name="Protect pedestrians through emergency braking" repPath="#_cMpvcMgGEfGUSsGzdkWa_Q" changeId="1792008055561">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_cMsLsMgGEfGUSsGzdkWa_Q" name="Protect pedestrians through emergency braking" repPath="#_cMpvcMgGEfGUSsGzdkWa_Q" changeId="1792046412429">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg" href="ADAS_Camera_Safety.capella#c289f092-4889-480d-bf2c-24c6e45b4c7d"/>
       </ownedRepresentationDescriptors>
@@ -94,7 +94,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_20eNgMgEEfGUSsGzdkWa_Q" name="Pedestrain">
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_20eNgMgEEfGUSsGzdkWa_Q" name="Pedestrian">
       <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="ADAS_Camera_Safety.capella#b0923753-c5c3-4970-b04d-5112db4fd5e6"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="ADAS_Camera_Safety.capella#b0923753-c5c3-4970-b04d-5112db4fd5e6"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -105,7 +105,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_5-MXgMgEEfGUSsGzdkWa_Q" name="Servide technician">
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_5-MXgMgEEfGUSsGzdkWa_Q" name="Service technician">
       <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="ADAS_Camera_Safety.capella#a7595899-a30a-4d81-8466-2d1ef8db6a68"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="ADAS_Camera_Safety.capella#a7595899-a30a-4d81-8466-2d1ef8db6a68"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -177,7 +177,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@containerMappings[name='COC_OperationalEntities']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_XEfbccgJEfGUSsGzdkWa_Q" name="Pedestrain">
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_XEfbccgJEfGUSsGzdkWa_Q" name="Pedestrian">
       <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="ADAS_Camera_Safety.capella#b0923753-c5c3-4970-b04d-5112db4fd5e6"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="ADAS_Camera_Safety.capella#b0923753-c5c3-4970-b04d-5112db4fd5e6"/>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_XEfbcsgJEfGUSsGzdkWa_Q" borderSize="1" borderSizeComputationExpression="1" borderColor="69,69,69" backgroundStyle="GradientTopToBottom" backgroundColor="249,248,245" foregroundColor="221,221,200">
