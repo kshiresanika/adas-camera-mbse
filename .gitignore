@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Capella workspace metadata (the model files themselves stay tracked)
+model/.metadata/
+
+# Editors and operating systems
+.vscode/
+.idea/
+*.bak
+*~
+Thumbs.db
+.DS_Store
