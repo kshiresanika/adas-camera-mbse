@@ -1,0 +1,18 @@
+active: true
+derived: false
+environment: bench
+header: ''
+level: 1.21
+links:
+- SWR-020: HIImbtLEjauSWZTRNFcP036tK1QrZYTlpThMV54CaDQ=
+normative: true
+pass_criteria: |
+  Metrics deviate from the reference values by less than TBD; blocked and blurred charts are indicated.
+ref: ''
+result: ''
+reviewed: ybJiIj6rvyCSIswX-WioUmHen4rtgD--09CtaMsQsio=
+scenario: SC-04
+status: planned
+test_level: software integration
+text: |
+  Feed reference charts (sharp, blurred, blocked) into the ISP and compare the image quality metrics with the reference values.

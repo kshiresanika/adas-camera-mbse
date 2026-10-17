@@ -1,0 +1,16 @@
+active: true
+asil: D
+component: Camera Module
+derived: false
+header: ''
+level: 1.15
+links:
+- SUB-001: 857LuTCQGV7Nkw6jzU-1aRohPF4-IEFTBtvFOJ_Y9dM=
+normative: true
+ref: ''
+reviewed: ZIXFhtYdgmVMDL47jxvlw041HBsFwKnXHUObhPwGr1s=
+saf_ref: ''
+software_unit: Camera Driver
+text: |
+  The Camera Driver shall configure the image sensor at start-up to the frame rate TBD fps and verify the configuration by reading back the sensor registers.
+verification_method: test

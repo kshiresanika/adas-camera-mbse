@@ -1,0 +1,18 @@
+active: true
+derived: false
+environment: bench
+header: ''
+level: 1.19
+links:
+- SWR-018: ONbGP-gzwoEPWbN3AqRInp32boCEmTBg-tAyZzpoqbE=
+normative: true
+pass_criteria: |
+  The parameter set matching each lighting condition is active within TBD s of the change.
+ref: ''
+result: ''
+reviewed: ZwP4H37-XqFGBhL3KSGXPxTGnTxrLn6Hqp02PfYRT5M=
+scenario: SC-01, SC-03, SC-04
+status: planned
+test_level: software integration
+text: |
+  Change the lighting in a light chamber between day, night and low sun and read the active ISP parameter set.

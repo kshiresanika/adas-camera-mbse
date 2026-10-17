@@ -1,0 +1,18 @@
+active: true
+derived: false
+environment: HIL
+header: ''
+level: 1.17
+links:
+- SWR-016: vXVRr-Pe9ZvQasQzon6wJTuBO19_z1Sm71BRr0czvuU=
+normative: true
+pass_criteria: |
+  Register read-back equals the configured values; frame rate equals TBD fps with a tolerance of TBD.
+ref: ''
+result: ''
+reviewed: WdegTBGyTGBDodTN4OY_vDYZzf8uznFYhbL9c6kLzgA=
+scenario: SC-01
+status: planned
+test_level: software integration
+text: |
+  Start the camera and read back the sensor registers, then measure the frame rate over one minute.

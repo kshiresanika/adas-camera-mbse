@@ -1,0 +1,16 @@
+active: true
+asil: QM
+component: Image Signal Processor
+derived: false
+header: ''
+level: '1.20'
+links:
+- SUB-014: SdHMy7j7y3IYWiq83FZS_P-M-vcpEYUvoCd2WgEo6II=
+normative: true
+ref: ''
+reviewed: 5hPtrRrL6m0bdu1J06F_iYGd7IJfS20gb8yz_XUxAU4=
+saf_ref: ''
+software_unit: Exposure Control
+text: |
+  The Exposure Control shall adapt exposure and gain so that the pedestrian region stays within the usable brightness range in the operating conditions SC-01 to SC-04.
+verification_method: test

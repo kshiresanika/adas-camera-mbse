@@ -1,0 +1,18 @@
+active: true
+derived: false
+environment: bench
+header: ''
+level: 1.22
+links:
+- SWR-021: OXtzQXpdda3vrr6SwmBeEzuJjCXHLDly1lZZvSN62I0=
+normative: true
+pass_criteria: |
+  The pedestrian region stays within the usable brightness range at every illuminance step.
+ref: ''
+result: ''
+reviewed: P5g1JMoAP3zRvUR0tE34Ll425MEJmQhF0P0RErBLPO0=
+scenario: SC-01, SC-02, SC-03, SC-04
+status: planned
+test_level: system
+text: |
+  Run the exposure control in a light chamber across the illuminance range TBD with a pedestrian target.

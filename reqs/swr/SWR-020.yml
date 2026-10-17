@@ -1,0 +1,16 @@
+active: true
+asil: B
+component: Image Signal Processor
+derived: false
+header: ''
+level: 1.19
+links:
+- SUB-004: W6AWQ4HlXKSTZfrfcpZMgdVNeroPIwW8o8QNju1sKBc=
+normative: true
+ref: ''
+reviewed: hi9If0LyIIlqXMTg7h3YC5gpfjCLZ13UvO3nPYLojrU=
+saf_ref: ''
+software_unit: ISP Pipeline Configurator
+text: |
+  The ISP Pipeline Configurator shall compute exposure, sharpness and blockage indicators for every processed image and attach them as image quality metrics.
+verification_method: test

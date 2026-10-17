@@ -1,0 +1,16 @@
+active: true
+asil: D
+component: Camera Module
+derived: false
+header: ''
+level: 1.16
+links:
+- SUB-002: xfYufxX2EG2DSLpNeq-L0bJToqE6UBcX8veN-zTKRGw=
+normative: true
+ref: ''
+reviewed: LikJTrxPFqRiT87lgOxQCoqeLDumkqWo319MlKyD43Q=
+saf_ref: SAF-001
+software_unit: Camera Driver
+text: |
+  The Camera Driver shall add a timestamp and a frame counter to every frame before it is passed on.
+verification_method: test

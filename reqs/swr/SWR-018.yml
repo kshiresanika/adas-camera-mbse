@@ -1,0 +1,16 @@
+active: true
+asil: D
+component: Image Signal Processor
+derived: false
+header: ''
+level: 1.17
+links:
+- SUB-003: 35WLVMBlrRiEJ-BQ15JuuSHZmdyihIq2nibClV3IW_o=
+normative: true
+ref: ''
+reviewed: DDL54jXUgfG_Hl9ozSxK2--1q7NpTgxcVne6nnlMTVU=
+saf_ref: ''
+software_unit: ISP Pipeline Configurator
+text: |
+  The ISP Pipeline Configurator shall load the tuned ISP parameter set that matches the active lighting condition (day, night, low sun).
+verification_method: test

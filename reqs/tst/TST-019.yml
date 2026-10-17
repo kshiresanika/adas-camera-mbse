@@ -1,0 +1,18 @@
+active: true
+derived: false
+environment: HIL
+header: ''
+level: 1.18
+links:
+- SWR-017: RxXKzDqA-KAaUzHMdyxkYp4c58CMOGZehUJijzDUxeI=
+normative: true
+pass_criteria: |
+  Timestamps increase monotonically; the frame counter increases by one per frame.
+ref: ''
+result: ''
+reviewed: EWoRkqHRZx4SVOgUjRGL-OnEA6CCag_ThtRk15gTB6o=
+scenario: SC-01
+status: planned
+test_level: software integration
+text: |
+  Record a ten-minute stream and check the timestamps and the frame counter of every frame.

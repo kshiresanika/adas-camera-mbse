@@ -1,0 +1,17 @@
+active: true
+derived: false
+environment: HIL
+header: ''
+level: '1.20'
+links:
+- SWR-019: MbKyeDiJvx8xZWpD8uhxmoIuTjpU-LqZlFQmyErmO7k=
+normative: true
+pass_criteria: Maximum conversion time is below TBD ms.
+ref: ''
+result: ''
+reviewed: FjAapzD30e_Rbi0x971aRtKT6HVuyX5nCEw8Rn5ZpFU=
+scenario: SC-01
+status: planned
+test_level: software integration
+text: |
+  Measure the conversion time of the Image Signal Processor for every frame of a long sequence.
