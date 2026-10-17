@@ -1,0 +1,18 @@
+active: true
+derived: false
+environment: HIL
+header: ''
+level: 1.15
+links:
+- SWR-014: 78TzI87JJ_5Kfh40iYA3KBRA6W7TlrCrYNDa5aj1y14=
+normative: true
+pass_criteria: |
+  One event record per trigger exists after the power cycle with complete content.
+ref: ''
+result: ''
+reviewed: rb8qlgSAVP7fAf4_H-f_ZkbxRJoPfqyf3r1LMSStg6E=
+scenario: SC-01, SC-04
+status: planned
+test_level: software integration
+text: |
+  Trigger an AEB request and a degraded state, then power-cycle the system and read the memory.

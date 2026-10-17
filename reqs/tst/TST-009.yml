@@ -1,0 +1,18 @@
+active: true
+derived: false
+environment: SIL
+header: ''
+level: 1.8
+links:
+- SWR-008: JLnxEJWp6VFJ2yWfJMVSq1iZPr-1LQF3P_3IXnMC3a8=
+normative: true
+pass_criteria: |
+  The detection is flagged as implausible; consistent detections are not flagged.
+ref: ''
+result: ''
+reviewed: f-KY1Bi7Ytux6n7Iy_AjGkKSC7Lfi3D_a84UKn_JZ9s=
+scenario: SC-03
+status: planned
+test_level: unit
+text: |
+  Inject a detection with an inconsistent size and distance into the Plausibility Checker.

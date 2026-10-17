@@ -1,0 +1,17 @@
+active: true
+derived: false
+environment: HIL
+header: ''
+level: 1.2
+links:
+- SWR-002: XJy-rSbQSfaOXEkl2jZHV12HK5B01qjSYY9eL46GYLI=
+normative: true
+pass_criteria: Maximum processing time per image is below TBD ms.
+ref: ''
+result: ''
+reviewed: 6rmX9xQ3VefLvKjh9TwH0aEpNtv7-xgZMrQpXS_Iuzk=
+scenario: SC-01
+status: planned
+test_level: software integration
+text: |
+  Measure the processing time of the Pedestrian Detector over a long recorded sequence.

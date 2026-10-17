@@ -1,0 +1,17 @@
+active: true
+derived: false
+environment: SIL
+header: ''
+level: 1.11
+links:
+- SWR-010: Ccvxnv9_lkxIJMcj2WWYqwHfVKmfFchJrF6bdh_-T74=
+normative: true
+pass_criteria: AEB request stays inactive for the whole sequence.
+ref: ''
+result: ''
+reviewed: NQx75OchB87GDs6Wiy6d6Cpv5AqpqFNe7wbtj8snP1I=
+scenario: all (no pedestrian)
+status: planned
+test_level: system
+text: |
+  Run a sequence without any pedestrian in the field of view.

@@ -1,0 +1,18 @@
+active: true
+derived: false
+environment: HIL
+header: ''
+level: 1.12
+links:
+- SWR-011: bFvZK2SVdhzfJfe-riV-0ZI3s097ut1lXbILIKCZ0gg=
+normative: true
+pass_criteria: |
+  AEB request is set inactive and the driver warning is raised within TBD ms of the fault.
+ref: ''
+result: ''
+reviewed: sy7oAEFfwt6APqFFGAEpfkT4XhRdbVR-hgDucWvAcvY=
+scenario: SC-01
+status: planned
+test_level: system
+text: |
+  Inject a fault into the Perception Software and into the Safety Monitor in turn.

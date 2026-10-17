@@ -1,0 +1,18 @@
+active: true
+derived: false
+environment: SIL
+header: ''
+level: 1.5
+links:
+- SWR-005: kXQk-o1BKuY3yLu0WkdJCDPwy2lKaHUguLjYL4N7hAg=
+normative: true
+pass_criteria: |
+  Blur or blockage flag is set for every injected frame that violates a threshold and for no clean frame.
+ref: ''
+result: ''
+reviewed: DnvQ-ASo_wKbRRzXU0XAr8AxNSswc0aZtNZtpxa7uRw=
+scenario: SC-04
+status: planned
+test_level: unit
+text: |
+  Inject frames with blur and with a blocked lens into the Health Monitor.

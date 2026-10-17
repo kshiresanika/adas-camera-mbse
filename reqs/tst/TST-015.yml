@@ -1,0 +1,17 @@
+active: true
+derived: false
+environment: HIL
+header: ''
+level: 1.14
+links:
+- SWR-013: gTjGE6dkR6cMR74iJl5c_xKoMSvsWJ_arzAKTz9a1wY=
+normative: true
+pass_criteria: Cycle time equals TBD ms with a tolerance of TBD ms.
+ref: ''
+result: ''
+reviewed: T-Pq9LwN0PBjV6Mt0Bcqr7ve6gG3pbWcMjeMFPkU3h8=
+scenario: SC-04
+status: planned
+test_level: software integration
+text: |
+  Measure the cycle time of the degraded status message on the vehicle network.

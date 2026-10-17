@@ -1,0 +1,18 @@
+active: true
+derived: false
+environment: SIL
+header: ''
+level: 1.3
+links:
+- SWR-003: x-YtvAf1-tpWv5wxD2ZJKoiPzBT4pbHJI-1ksgqlx8k=
+normative: true
+pass_criteria: |
+  Track identifier stays constant for TBD percent of the frames; velocity error below TBD m/s.
+ref: ''
+result: ''
+reviewed: 89uNND1C-aAUKonD7qgbDhqcupqouUuAIPhC4BctWp0=
+scenario: SC-01, SC-02
+status: planned
+test_level: unit
+text: |
+  Feed a sequence with a pedestrian crossing and a child emerging from occlusion into the Object Tracker.

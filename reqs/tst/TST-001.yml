@@ -1,0 +1,18 @@
+active: true
+derived: false
+environment: SIL
+header: ''
+level: 1.0
+links:
+- SWR-001: WhR8fiZeIR2my49jwA_2xb43PHn52Tn7PUA51V-N9eg=
+normative: true
+pass_criteria: |
+  Detection rate of at least TBD percent; every object has bounding box, distance and a confidence between 0 and 1.
+ref: ''
+result: ''
+reviewed: ubLvoY817M_tTqXoZ1W2n1ObSf7UbTAxX8naduxJMFE=
+scenario: SC-01
+status: planned
+test_level: unit
+text: |
+  Run the Pedestrian Detector on recorded clips of an adult crossing in daylight and check the output object fields.

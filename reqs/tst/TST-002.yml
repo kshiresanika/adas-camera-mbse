@@ -1,0 +1,18 @@
+active: true
+derived: false
+environment: SIL
+header: ''
+level: 1.1
+links:
+- SWR-001: WhR8fiZeIR2my49jwA_2xb43PHn52Tn7PUA51V-N9eg=
+normative: true
+pass_criteria: |
+  Detection rate of at least TBD percent; every object has bounding box, distance and a confidence between 0 and 1.
+ref: ''
+result: ''
+reviewed: 9W5wTI54eOKYlIbDwp0vRm5mzY4tAe-y-obSjkJVlwI=
+scenario: SC-03
+status: planned
+test_level: unit
+text: |
+  Run the Pedestrian Detector on recorded night clips with a pedestrian in dark clothing and check the output object fields.

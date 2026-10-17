@@ -1,0 +1,17 @@
+active: true
+derived: false
+environment: SIL
+header: ''
+level: '1.10'
+links:
+- SWR-009: UiT3SEKUoi-BKclP9-nbRFIl9lblsdKyGWJI5CdEhwQ=
+normative: true
+pass_criteria: AEB request stays inactive and the degraded status is reported.
+ref: ''
+result: ''
+reviewed: _BmFoKXdqtuNcF9jjKaRUfQuz7XbKkuHaDx9sBLM4Wo=
+scenario: SC-04
+status: planned
+test_level: system
+text: |
+  Provide a collision risk above the threshold while the perception health status is degraded.

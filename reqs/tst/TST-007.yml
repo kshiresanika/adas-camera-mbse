@@ -1,0 +1,18 @@
+active: true
+derived: false
+environment: SIL
+header: ''
+level: 1.6
+links:
+- SWR-006: -lkVVag5UWmwITpnTo7BKH9BgJju8im1uKvYB2fxuRI=
+normative: true
+pass_criteria: |
+  Perception health status changes to degraded after exactly TBD frames and not earlier.
+ref: ''
+result: ''
+reviewed: Es2Uu0yIJ4yItkqMaFro4Sz39PAhPXJcysKOnuh3X5s=
+scenario: SC-04
+status: planned
+test_level: software integration
+text: |
+  Inject TBD consecutive frames with a failed image quality check.

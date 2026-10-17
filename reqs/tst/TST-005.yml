@@ -1,0 +1,18 @@
+active: true
+derived: false
+environment: SIL
+header: ''
+level: 1.4
+links:
+- SWR-004: beywwnOu9CxjH60gpEJ9RECJVp43uuZbMuWtd3gzK8Q=
+normative: true
+pass_criteria: |
+  Risk value is between 0 and 1 and matches the reference mapping within TBD.
+ref: ''
+result: ''
+reviewed: EjYekBC3yU8zhcx34Ia4dDcaXxFoH3_FJTP2rBo_VZA=
+scenario: SC-01, SC-02
+status: planned
+test_level: unit
+text: |
+  Feed known distances and speeds into the Collision Risk Estimator and compare the risk output with the expected mapping.

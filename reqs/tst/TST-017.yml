@@ -1,0 +1,17 @@
+active: true
+derived: false
+environment: HIL
+header: ''
+level: 1.16
+links:
+- SWR-015: 4zeB4178JxyE9dGXTv3u-u3Wj5Wv3m8yIkG86AYf6QI=
+normative: true
+pass_criteria: All stored records are returned unchanged and completely.
+ref: ''
+result: ''
+reviewed: rj24XRxcjPse9IOe2h75Xc9yHylnFmLyxulHXvBVCdA=
+scenario: SC-01, SC-04
+status: planned
+test_level: system
+text: |
+  Read the stored event records from a connected service tool over the diagnostic protocol.

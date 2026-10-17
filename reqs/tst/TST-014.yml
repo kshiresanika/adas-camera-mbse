@@ -1,0 +1,18 @@
+active: true
+derived: false
+environment: HIL
+header: ''
+level: 1.13
+links:
+- SWR-012: vhCCb_t4PG3WTEVlG8WDa9mxCHbXFrbdtmTOjs3aATg=
+normative: true
+pass_criteria: |
+  Valid messages are accepted; corrupted and repeated messages are rejected.
+ref: ''
+result: ''
+reviewed: S1AHkzEftV3zNLWm7j4G2GVspdqUlnWxcMucW_4Dp9g=
+scenario: SC-01
+status: planned
+test_level: software integration
+text: |
+  Check the CRC and the alive counter of AEB request messages, then corrupt and repeat messages at the receiver.

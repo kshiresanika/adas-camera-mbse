@@ -1,0 +1,18 @@
+active: true
+derived: false
+environment: HIL
+header: ''
+level: 1.7
+links:
+- SWR-007: qz_4Y0JkUJ0sk85yLpPyz8SMO-zfS7uG1xoPG7-Bcxc=
+normative: true
+pass_criteria: |
+  Perception health status changes to degraded within TBD ms of the last valid frame.
+ref: ''
+result: ''
+reviewed: Zx1W_cbpfXc3EBNHj3ckCLSCpy3Hg9MvqSH9Qf9G7uw=
+scenario: SC-04
+status: planned
+test_level: software integration
+text: |
+  Stop the frame counter updates for TBD ms.
