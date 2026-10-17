@@ -50,6 +50,28 @@ flowchart TD
 
 Safety requirements (SAF) are referenced from software requirements through the attribute `saf_ref`, because SAF and SUB are sibling documents.
 
+## Model screenshots
+
+System architecture (actors and allocated functions):
+
+![SAB Context](docs/images/sab-context.png)
+
+System data flow (functions and exchanges):
+
+![SDFB Context](docs/images/sdfb-context.png)
+
+Logical architecture (components and function allocation):
+
+![LAB Context](docs/images/lab-context.png)
+
+Coverage report (traceability from stakeholder needs to test cases):
+
+![Coverage report, part 1](docs/images/coverage-report1.png)
+
+![Coverage report, part 2](docs/images/coverage-report2.png)
+
+![Coverage report, part 3](docs/images/coverage-report3.png)
+
 ## Repository structure
 
 ```
