@@ -1,0 +1,16 @@
+active: true
+asil: B
+component: Safety Monitor
+derived: false
+header: ''
+level: 1.6
+links:
+- SUB-007: deTxOoOckLPVxU_IxIfCe0t4k4AT76t2LdGjLaF2h_M=
+normative: true
+ref: ''
+reviewed: dT6o4CzgKu1ZBxPypGIOKR8vzaCWiPQLN61urBN1oZ0=
+saf_ref: SAF-001
+software_unit: Health Monitor
+text: |
+  The Health Monitor shall set the perception health status to degraded when no new frame counter value has been received for TBD ms.
+verification_method: test

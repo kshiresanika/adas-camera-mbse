@@ -1,0 +1,16 @@
+active: true
+asil: D
+component: Safety Monitor
+derived: false
+header: ''
+level: 1.8
+links:
+- SUB-008: LLOJ0_aya13kp96u-e7IC5Jfaw03BesP2eRbS4V4Aq0=
+normative: true
+ref: ''
+reviewed: kRPYLS_MHmwQhTv4odllSBKUmVIKMjk_OuqFTK1Fa7o=
+saf_ref: ''
+software_unit: AEB Decision Logic
+text: |
+  The AEB Decision Logic shall set the AEB request active when the collision risk is at least TBD, the perception health status is valid and the detection is plausible.
+verification_method: test

@@ -1,0 +1,16 @@
+active: true
+asil: B
+component: Safety Monitor
+derived: false
+header: ''
+level: 1.9
+links:
+- SUB-009: 7-i2NbP3foDUiKzU2ZacOBGKSyauOoKKn2PeC4E3tJ0=
+normative: true
+ref: ''
+reviewed: 3_O7iH-oUEse5MItar7d5VzK02nCkP2Co9M1TcC5rOc=
+saf_ref: ''
+software_unit: AEB Decision Logic
+text: |
+  The AEB Decision Logic shall keep the AEB request inactive when no valid pedestrian detection exists.
+verification_method: test

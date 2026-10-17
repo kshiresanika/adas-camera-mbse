@@ -1,0 +1,16 @@
+active: true
+asil: D
+component: Perception Software
+derived: false
+header: ''
+level: 1.3
+links:
+- SUB-006: EDspSomULZvf5TzWGMBJI-XN7mGDHEZNOttRvPwmnZU=
+normative: true
+ref: ''
+reviewed: kW9ctVgeiVJvw418qfegvb9pQkLyXMT2xLWODv7C3bk=
+saf_ref: ''
+software_unit: Collision Risk Estimator
+text: |
+  The Collision Risk Estimator shall compute the time to collision for each track and map it to a risk value between 0 and 1.
+verification_method: test

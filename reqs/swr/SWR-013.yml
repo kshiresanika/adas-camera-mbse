@@ -1,0 +1,16 @@
+active: true
+asil: B
+component: Communication Gateway
+derived: false
+header: ''
+level: 1.12
+links:
+- SUB-011: TSDP-wpR5RZU_-fK_OD58KCP6pAsyD-xU8HQhcIoUvY=
+normative: true
+ref: ''
+reviewed: orwkRMa9KLhhgb3bMj4qeT0LNrwkxxoCH7alPYVdInY=
+saf_ref: ''
+software_unit: Message Handler
+text: |
+  The Message Handler shall send the degraded perception status to the vehicle network with a cycle time of TBD ms.
+verification_method: test

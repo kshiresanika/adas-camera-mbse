@@ -1,0 +1,16 @@
+active: true
+asil: QM
+component: Diagnostic Manager
+derived: false
+header: ''
+level: 1.13
+links:
+- SUB-012: 6T0miM4gXrvhagd_ffawzDsA1V3MzqgQbzYUT6i3eA0=
+normative: true
+ref: ''
+reviewed: Vr9MGT3a7leIQLdkOZvUkSlYCAlSiUua99JzaLZKdXY=
+saf_ref: ''
+software_unit: Event Logger
+text: |
+  The Event Logger shall write an event record to non-volatile memory for every AEB request and every degraded perception state.
+verification_method: test

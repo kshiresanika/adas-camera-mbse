@@ -1,0 +1,17 @@
+active: true
+asil: D
+component: Safety Monitor
+derived: false
+header: ''
+level: '1.10'
+links:
+- SUB-009: 7-i2NbP3foDUiKzU2ZacOBGKSyauOoKKn2PeC4E3tJ0=
+- SUB-011: TSDP-wpR5RZU_-fK_OD58KCP6pAsyD-xU8HQhcIoUvY=
+normative: true
+ref: ''
+reviewed: sw4skSVwK2m-UljxVRHujtTdj0aa0oT4PF4Dt4Wl_p0=
+saf_ref: SAF-002
+software_unit: Safe State Manager
+text: |
+  The Safe State Manager shall set the AEB request inactive and raise a driver warning when an internal fault of the Perception Software or the Safety Monitor is detected.
+verification_method: test

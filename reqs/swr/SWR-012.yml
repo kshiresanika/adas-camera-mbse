@@ -1,0 +1,16 @@
+active: true
+asil: D
+component: Communication Gateway
+derived: false
+header: ''
+level: 1.11
+links:
+- SUB-010: GP3Tkr4FlCYXxRZYHatLQKxm8x-Tv4zTykc7skzAA80=
+normative: true
+ref: ''
+reviewed: seYqV123Cp-UlIgLrltzPgcnhtGiwyYquw6bE_Nk7ug=
+saf_ref: SAF-004
+software_unit: Message Handler
+text: |
+  The Message Handler shall append a CRC and increment an alive counter in every AEB request message.
+verification_method: test

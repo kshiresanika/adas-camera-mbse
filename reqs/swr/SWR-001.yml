@@ -1,0 +1,16 @@
+active: true
+asil: D
+component: Perception Software
+derived: false
+header: ''
+level: 1.0
+links:
+- SUB-005: e_OwVNmfYUevZMhsjRB2x5G6ByNxUnanhVeAaK2S4aE=
+normative: true
+ref: ''
+reviewed: SSaB9bU0D0Agj3L6CbYw6zM0zhOzT5EVnafNQYYSm8U=
+saf_ref: ''
+software_unit: Pedestrian Detector
+text: |
+  The Pedestrian Detector shall process every processed image and output pedestrian objects with bounding box, distance estimate and a confidence between 0 and 1.
+verification_method: test

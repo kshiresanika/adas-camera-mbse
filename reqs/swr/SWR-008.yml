@@ -1,0 +1,16 @@
+active: true
+asil: D
+component: Safety Monitor
+derived: false
+header: ''
+level: 1.7
+links:
+- SUB-009: 7-i2NbP3foDUiKzU2ZacOBGKSyauOoKKn2PeC4E3tJ0=
+normative: true
+ref: ''
+reviewed: i1VME41qh9ifbX0yw9QEPUN4SeFNiTsrtCJRAZR7roA=
+saf_ref: SAF-003
+software_unit: Plausibility Checker
+text: |
+  The Plausibility Checker shall check each detection against an independent criterion (for example size-distance consistency) and flag implausible detections.
+verification_method: test

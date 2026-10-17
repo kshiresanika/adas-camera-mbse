@@ -1,0 +1,16 @@
+active: true
+asil: B
+component: Safety Monitor
+derived: false
+header: ''
+level: 1.5
+links:
+- SUB-007: deTxOoOckLPVxU_IxIfCe0t4k4AT76t2LdGjLaF2h_M=
+normative: true
+ref: ''
+reviewed: n_wVGrmLR8Qsrkq-3a01nt8fPeCGT7l8qkLuJuWpcUs=
+saf_ref: ''
+software_unit: Health Monitor
+text: |
+  The Health Monitor shall set the perception health status to degraded after TBD consecutive frames with a failed image quality check.
+verification_method: test

@@ -1,0 +1,16 @@
+active: true
+asil: QM
+component: Diagnostic Manager
+derived: false
+header: ''
+level: 1.14
+links:
+- SUB-013: xtosQ9bs2yaV3BkrMGxbnGip9N64lKx38ZppI1iQBhs=
+normative: true
+ref: ''
+reviewed: iLvub8wV3bIhkazNHPr9KPsBC71skWrPYrG1NXkBnTQ=
+saf_ref: ''
+software_unit: Event Logger
+text: |
+  The Event Logger shall return the stored event records over the diagnostic protocol on request of a service tool.
+verification_method: test

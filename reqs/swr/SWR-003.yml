@@ -1,0 +1,16 @@
+active: true
+asil: D
+component: Perception Software
+derived: false
+header: ''
+level: 1.2
+links:
+- SUB-006: EDspSomULZvf5TzWGMBJI-XN7mGDHEZNOttRvPwmnZU=
+normative: true
+ref: ''
+reviewed: fKa9lKaY_qaCfjJ9Fqbm5MNFhtAsQLlsRB6LIABa1wk=
+saf_ref: ''
+software_unit: Object Tracker
+text: |
+  The Object Tracker shall maintain a track identifier for each pedestrian across consecutive frames and estimate its velocity.
+verification_method: test

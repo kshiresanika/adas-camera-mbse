@@ -1,0 +1,16 @@
+active: true
+asil: D
+component: Perception Software
+derived: false
+header: ''
+level: 1.1
+links:
+- SUB-005: e_OwVNmfYUevZMhsjRB2x5G6ByNxUnanhVeAaK2S4aE=
+normative: true
+ref: ''
+reviewed: bajicLYkgvAepk_ZP54s-srgpQ3BfNC72bjEsPJz_qc=
+saf_ref: ''
+software_unit: Pedestrian Detector
+text: |
+  The Pedestrian Detector shall complete the processing of each image within TBD ms.
+verification_method: test

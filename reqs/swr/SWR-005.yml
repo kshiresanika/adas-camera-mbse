@@ -1,0 +1,16 @@
+active: true
+asil: B
+component: Safety Monitor
+derived: false
+header: ''
+level: 1.4
+links:
+- SUB-007: deTxOoOckLPVxU_IxIfCe0t4k4AT76t2LdGjLaF2h_M=
+normative: true
+ref: ''
+reviewed: 6NPEdI0nDWBhiu9k6192kIsm0Hk16SzxfRqzEpEIGq4=
+saf_ref: ''
+software_unit: Health Monitor
+text: |
+  The Health Monitor shall evaluate the image quality metrics of every frame against the thresholds TBD and set a blockage or blur flag when a threshold is violated.
+verification_method: test
