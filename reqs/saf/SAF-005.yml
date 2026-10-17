@@ -1,0 +1,16 @@
+active: true
+asil: n/a
+capella_ref: all logical functions
+component: all safety-related components
+derived: false
+header: ''
+level: 1.4
+links:
+- SYS-010: Xs0zKn5tILKZIGBrBlYuV3fbVDHNpNEF-1K955aV2DY=
+normative: true
+rationale: Process compliance is part of the safety argument.
+ref: ''
+reviewed: WcLfPQFCzezubYrnYkMbYGVgQQP4WemFono84nzDvmQ=
+text: |
+  The safety-related components shall be developed according to ISO 26262 for their allocated ASIL.
+verification_method: analysis

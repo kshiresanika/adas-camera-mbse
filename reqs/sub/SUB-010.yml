@@ -1,0 +1,17 @@
+active: true
+asil: D
+capella_ref: Output status to driver and vehicle
+component: Communication Gateway
+derived: false
+header: ''
+level: 1.9
+links:
+- SYS-003: a9rTuVyIi4jERsGsscFaVKIhwWdBFKJsttSV29PFu3U=
+- SYS-006: H1_nWOs1Pn41fj5K7lGwa_o2CrzYVTqlAEII5el8xuY=
+normative: true
+rationale: Gateway latency is part of the end-to-end AEB response time.
+ref: ''
+reviewed: 7tCthtCfc-NMr8h2dc2VmySmwoRCmuOl2aC_10okG3c=
+text: |
+  The Communication Gateway shall transmit the AEB request and the system state to the vehicle network within TBD ms of the decision.
+verification_method: test

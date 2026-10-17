@@ -1,0 +1,17 @@
+active: true
+asil: QM
+capella_ref: Capture camera image; Process image (ISP)
+component: Camera Module, Image Signal Processor
+derived: false
+header: ''
+level: 1.13
+links:
+- SYS-009: nDrJTfEAuS9b6-DeORcVkCD8oFA_KJKNSaRPLo9LFg0=
+normative: true
+rationale: |
+  Detection performance depends on image quality across lighting and weather.
+ref: ''
+reviewed: Rd1827qjM91rwveM7bxb0_9QK__m5Qz3bRPpnClaKSw=
+text: |
+  The Camera Module and the Image Signal Processor shall keep the image quality sufficient for detection in the operating conditions SC-01 to SC-04.
+verification_method: test

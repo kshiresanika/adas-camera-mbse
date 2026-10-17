@@ -1,0 +1,17 @@
+active: true
+asil: B
+capella_ref: Monitor perception health
+component: Safety Monitor
+derived: false
+header: ''
+level: 1.6
+links:
+- SYS-005: -pkGX4KKbTZ-FDgJ7FRcSOg3EIh5cyhKjBhhwXGc_hI=
+normative: true
+rationale: |
+  Combining both sources detects degradation that either one alone would miss.
+ref: ''
+reviewed: z30mGY2ZVepvUxC3ZY00FQTnUP45IA0v71XvUdeH6ao=
+text: |
+  The Safety Monitor shall derive a perception health status from the image quality metrics and the plausibility of the detections.
+verification_method: test

@@ -1,0 +1,16 @@
+active: true
+asil: D
+capella_ref: Detect pedestrians
+component: Perception Software
+derived: false
+header: ''
+level: 1.4
+links:
+- SYS-001: REqaYgwJOJYcFUQVJbbFECOOPmvRRH3xCw9ZCyIemZI=
+normative: true
+rationale: The object list is the basis for the collision risk estimate.
+ref: ''
+reviewed: i3WTY5JCpGyP0sWraMbi6VJTYouNmZxg10lVyN7mDAk=
+text: |
+  The Perception Software shall detect pedestrians in each processed image and output an object list with position and confidence.
+verification_method: test

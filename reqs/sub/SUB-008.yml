@@ -1,0 +1,17 @@
+active: true
+asil: D
+capella_ref: Decide AEB request
+component: Safety Monitor
+derived: false
+header: ''
+level: 1.7
+links:
+- SYS-002: f8co7lI5uxYIf_43PdybISB8RJv13KXSQwQmkxEU_X4=
+normative: true
+rationale: |
+  The request is only trustworthy if the perception behind it is healthy.
+ref: ''
+reviewed: KNgKxiRFlq9kBDWCQhy5mUx6jx7xqaCntetSIQlHWwk=
+text: |
+  The Safety Monitor shall issue an AEB request when the collision risk exceeds the threshold TBD and the perception health status is valid.
+verification_method: test

@@ -1,0 +1,17 @@
+active: true
+asil: D
+capella_ref: Process image (ISP)
+component: Image Signal Processor
+derived: false
+header: ''
+level: 1.2
+links:
+- SYS-001: REqaYgwJOJYcFUQVJbbFECOOPmvRRH3xCw9ZCyIemZI=
+- SYS-003: a9rTuVyIi4jERsGsscFaVKIhwWdBFKJsttSV29PFu3U=
+normative: true
+rationale: Processing latency is part of the end-to-end AEB response time.
+ref: ''
+reviewed: u_sEhm0n4_TWsflDEzDuk1T3-w9fZATwgNhZTebGQw8=
+text: |
+  The Image Signal Processor shall convert each raw image to a processed image within TBD ms.
+verification_method: test

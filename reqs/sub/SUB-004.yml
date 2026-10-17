@@ -1,0 +1,17 @@
+active: true
+asil: B
+capella_ref: Process image (ISP)
+component: Image Signal Processor
+derived: false
+header: ''
+level: 1.3
+links:
+- SYS-005: -pkGX4KKbTZ-FDgJ7FRcSOg3EIh5cyhKjBhhwXGc_hI=
+normative: true
+rationale: |
+  The perception health monitoring needs objective image quality inputs.
+ref: ''
+reviewed: 1dzvProEKPf1_j73P7MJ4CIKW2cAzTHDPgtyTOodRtI=
+text: |
+  The Image Signal Processor shall provide image quality metrics (for example exposure, sharpness and blockage indicators) with every processed image.
+verification_method: test

@@ -1,0 +1,16 @@
+active: true
+asil: B
+capella_ref: Decide AEB request
+component: Safety Monitor
+derived: false
+header: ''
+level: 1.8
+links:
+- SYS-004: FGYb4932OYFXGwXCMjhsZpsAbvtYHo9c2gJoJXxYiTE=
+normative: true
+rationale: Avoids unwarranted braking.
+ref: ''
+reviewed: WBnvFLuC9-VzI-HXiN8u0SCYlLMHpiqkovzi0LAYufQ=
+text: |
+  The Safety Monitor shall suppress the AEB request when no valid pedestrian detection exists.
+verification_method: test

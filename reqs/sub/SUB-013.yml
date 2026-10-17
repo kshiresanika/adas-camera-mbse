@@ -1,0 +1,16 @@
+active: true
+asil: QM
+capella_ref: Log diagnostic data
+component: Diagnostic Manager
+derived: false
+header: ''
+level: 1.12
+links:
+- SYS-008: VC_Yjq0b_FT697xjeo99SVc43cHPut9C02GkxipvWvE=
+normative: true
+rationale: Service staff need access to the records.
+ref: ''
+reviewed: nLPk5k3vs84_73Mpd0qmOO5Bav15xnc-vM7_W47z-0A=
+text: |
+  The Diagnostic Manager shall provide the stored event records to a connected service tool on request.
+verification_method: demonstration

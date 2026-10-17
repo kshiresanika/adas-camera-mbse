@@ -1,0 +1,18 @@
+active: true
+asil: D
+capella_ref: Capture camera image
+component: Camera Module
+derived: false
+header: ''
+level: 1.1
+links:
+- SYS-001: REqaYgwJOJYcFUQVJbbFECOOPmvRRH3xCw9ZCyIemZI=
+- SYS-007: JpjjARYYKiOS9kTW-kv0fC4QXo0kE4NvnIOk91j2sUw=
+normative: true
+rationale: |
+  Timing and sequence information support tracking, monitoring and logging.
+ref: ''
+reviewed: qzYE6bwGIr1j6uK1EMshBiImmZsxHgsQsaW4R2HyUJI=
+text: |
+  The Camera Module shall provide each raw image with a timestamp and a frame counter.
+verification_method: test

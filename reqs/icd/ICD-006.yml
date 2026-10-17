@@ -1,0 +1,16 @@
+active: true
+asil: QM
+capella_ref: AEB event; degraded state
+component: Safety Monitor -> Diagnostic Manager
+derived: false
+header: ''
+level: 1.5
+links:
+- SUB-012: 6T0miM4gXrvhagd_ffawzDsA1V3MzqgQbzYUT6i3eA0=
+normative: true
+rationale: Fixes the interface that feeds the event records.
+ref: ''
+reviewed: Vv84XTfj_7tjyEYf_1dXeyR_I13P1-i4JSV99zBx7kM=
+text: |
+  The Safety Monitor shall provide event data (AEB event, degraded state) to the Diagnostic Manager with content TBD.
+verification_method: inspection

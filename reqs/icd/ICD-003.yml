@@ -1,0 +1,17 @@
+active: true
+asil: B
+capella_ref: image quality metrics
+component: Image Signal Processor -> Safety Monitor
+derived: false
+header: ''
+level: 1.2
+links:
+- SUB-004: W6AWQ4HlXKSTZfrfcpZMgdVNeroPIwW8o8QNju1sKBc=
+- SUB-007: deTxOoOckLPVxU_IxIfCe0t4k4AT76t2LdGjLaF2h_M=
+normative: true
+rationale: Fixes the interface that feeds the health monitoring.
+ref: ''
+reviewed: tM6q37PQa9qPh9kTvENs2SEv80Gi_9CGc_lOd4k0qT0=
+text: |
+  The Image Signal Processor shall provide the image quality metrics to the Safety Monitor with every frame, with content TBD.
+verification_method: inspection

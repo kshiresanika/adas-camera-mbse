@@ -1,0 +1,16 @@
+active: true
+asil: D
+capella_ref: Capture camera image
+component: Camera Module
+derived: false
+header: ''
+level: 1.0
+links:
+- SYS-001: REqaYgwJOJYcFUQVJbbFECOOPmvRRH3xCw9ZCyIemZI=
+normative: true
+rationale: A sufficient frame rate is needed to track moving pedestrians.
+ref: ''
+reviewed: dqSw3jRflsCOy0EuKpi__ORltZ76JwbQcyUkaJ2hGlw=
+text: |
+  The Camera Module shall capture images of the forward field of view at a frame rate of TBD fps.
+verification_method: test

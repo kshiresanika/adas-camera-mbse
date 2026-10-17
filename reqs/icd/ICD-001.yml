@@ -1,0 +1,17 @@
+active: true
+asil: D
+capella_ref: raw image
+component: Camera Module -> Image Signal Processor
+derived: false
+header: ''
+level: 1.0
+links:
+- SUB-001: 857LuTCQGV7Nkw6jzU-1aRohPF4-IEFTBtvFOJ_Y9dM=
+- SUB-002: xfYufxX2EG2DSLpNeq-L0bJToqE6UBcX8veN-zTKRGw=
+normative: true
+rationale: Fixes the first interface of the image chain.
+ref: ''
+reviewed: hzjT65Iu6aw429fLg3Z8DlLSjllUCHWb6CJDFUu-Fmc=
+text: |
+  The Camera Module shall provide the raw image to the Image Signal Processor with resolution TBD, frame rate TBD, pixel format TBD, timestamp and frame counter.
+verification_method: inspection

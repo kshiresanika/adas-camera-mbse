@@ -1,0 +1,16 @@
+active: true
+asil: D
+capella_ref: Track pedestrians and predict collision risk
+component: Perception Software
+derived: false
+header: ''
+level: 1.5
+links:
+- SYS-002: f8co7lI5uxYIf_43PdybISB8RJv13KXSQwQmkxEU_X4=
+normative: true
+rationale: The AEB decision depends on a quantified collision risk.
+ref: ''
+reviewed: zkBzGX-Xpz5Gtj2x4kMwAu9nx0nZwoUFE-Atlv-M9qo=
+text: |
+  The Perception Software shall estimate the collision risk for each tracked pedestrian.
+verification_method: test

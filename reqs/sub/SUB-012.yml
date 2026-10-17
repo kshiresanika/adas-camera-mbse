@@ -1,0 +1,16 @@
+active: true
+asil: QM
+capella_ref: Log diagnostic data
+component: Diagnostic Manager
+derived: false
+header: ''
+level: 1.11
+links:
+- SYS-007: JpjjARYYKiOS9kTW-kv0fC4QXo0kE4NvnIOk91j2sUw=
+normative: true
+rationale: Event records enable root-cause analysis.
+ref: ''
+reviewed: 2Ld3UMFFkEKe649KhFz_pa5OxTQUs2fV2_FK-_axpWY=
+text: |
+  The Diagnostic Manager shall store an event record (timestamp, collision risk, health status, AEB request) for every AEB request and every degraded perception state.
+verification_method: demonstration

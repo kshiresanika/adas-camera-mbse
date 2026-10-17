@@ -1,0 +1,16 @@
+active: true
+asil: B
+capella_ref: Monitor perception health
+component: Safety Monitor
+derived: false
+header: ''
+level: 1.0
+links:
+- SYS-005: -pkGX4KKbTZ-FDgJ7FRcSOg3EIh5cyhKjBhhwXGc_hI=
+normative: true
+rationale: A frozen image looks valid to the detection but hides pedestrians.
+ref: ''
+reviewed: DxpHGbwalkuYFf38QdSaFWhIttJxN51x7-CCXeXB1_g=
+text: |
+  The Safety Monitor shall detect a lost or stale image stream within TBD ms and treat it as degraded perception.
+verification_method: test

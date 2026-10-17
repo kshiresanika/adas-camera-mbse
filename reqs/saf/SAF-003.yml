@@ -1,0 +1,18 @@
+active: true
+asil: D
+capella_ref: Decide AEB request
+component: Safety Monitor
+derived: false
+header: ''
+level: 1.2
+links:
+- SYS-004: FGYb4932OYFXGwXCMjhsZpsAbvtYHo9c2gJoJXxYiTE=
+- SYS-010: Xs0zKn5tILKZIGBrBlYuV3fbVDHNpNEF-1K955aV2DY=
+normative: true
+rationale: |
+  Independence limits common-cause failures between detection and decision.
+ref: ''
+reviewed: DX2dclDMruDJNupULeNEoXYVWsIr6oghsqaB_x5Ha9M=
+text: |
+  The Safety Monitor shall validate the output of the Perception Software with an independent plausibility check before issuing an AEB request.
+verification_method: analysis

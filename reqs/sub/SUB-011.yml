@@ -1,0 +1,16 @@
+active: true
+asil: B
+capella_ref: Output status to driver and vehicle
+component: Communication Gateway
+derived: false
+header: ''
+level: '1.10'
+links:
+- SYS-006: H1_nWOs1Pn41fj5K7lGwa_o2CrzYVTqlAEII5el8xuY=
+normative: true
+rationale: The driver must be informed when the function is limited.
+ref: ''
+reviewed: qkF8r6OFcmeRwmCC5K64TmA5GfopI14pIJ-BqHEtSMk=
+text: |
+  The Communication Gateway shall transmit the degraded perception status to the vehicle network for display to the driver.
+verification_method: test

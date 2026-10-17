@@ -1,0 +1,18 @@
+active: true
+asil: D
+capella_ref: AEB request and system state; degradation status
+component: Safety Monitor -> Communication Gateway
+derived: false
+header: ''
+level: 1.4
+links:
+- SUB-008: LLOJ0_aya13kp96u-e7IC5Jfaw03BesP2eRbS4V4Aq0=
+- SUB-010: GP3Tkr4FlCYXxRZYHatLQKxm8x-Tv4zTykc7skzAA80=
+- SUB-011: TSDP-wpR5RZU_-fK_OD58KCP6pAsyD-xU8HQhcIoUvY=
+normative: true
+rationale: Fixes the safety-critical output interface.
+ref: ''
+reviewed: sqfB2c1ktqjttya-aGEzVIQ6QjoB9YzY0jGy1RNdIYQ=
+text: |
+  The Safety Monitor shall provide the AEB request, the system state and the degradation status to the Communication Gateway with cycle time TBD ms and content TBD.
+verification_method: inspection

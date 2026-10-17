@@ -1,0 +1,17 @@
+active: true
+asil: D
+capella_ref: processed image
+component: Image Signal Processor -> Perception Software
+derived: false
+header: ''
+level: 1.1
+links:
+- SUB-003: 35WLVMBlrRiEJ-BQ15JuuSHZmdyihIq2nibClV3IW_o=
+- SUB-005: e_OwVNmfYUevZMhsjRB2x5G6ByNxUnanhVeAaK2S4aE=
+normative: true
+rationale: Fixes the interface that feeds the detection.
+ref: ''
+reviewed: fe6p4Rr_6jdvLz6CrvpSPHrEHra4Lj7jq3Y6KTuEoiE=
+text: |
+  The Image Signal Processor shall provide the processed image to the Perception Software with format TBD and a maximum latency of TBD ms.
+verification_method: inspection

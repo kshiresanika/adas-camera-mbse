@@ -1,0 +1,18 @@
+active: true
+asil: D
+capella_ref: Monitor perception health
+component: Safety Monitor
+derived: false
+header: ''
+level: 1.1
+links:
+- SYS-004: FGYb4932OYFXGwXCMjhsZpsAbvtYHo9c2gJoJXxYiTE=
+- SYS-006: H1_nWOs1Pn41fj5K7lGwa_o2CrzYVTqlAEII5el8xuY=
+normative: true
+rationale: |
+  Assumed safe state is fail-silent with driver notification; to be confirmed by a HARA.
+ref: ''
+reviewed: NG0SEz4evEDudd52BwoQFaRYGfEUCKehi0H0tYTvUZM=
+text: |
+  The system shall enter a defined safe state (AEB request inhibited, driver informed) when a failure of the Perception Software or the Safety Monitor is detected.
+verification_method: test
